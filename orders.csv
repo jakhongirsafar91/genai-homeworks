@@ -1,0 +1,1221 @@
+order_id,date,customer_code,category,channel,amount_usd,status
+ORD-0001,2026-08-01,C119,Bread,Delivery app,2.73,completed
+ORD-0002,2026-08-01,C098,Bread,Walk-in,4.22,completed
+ORD-0003,2026-08-01,C061,Drinks,Walk-in,4.85,completed
+ORD-0004,2026-08-01,C099,Bread,Delivery app,5.49,completed
+ORD-0005,2026-08-01,C108,Drinks,Delivery app,4.76,completed
+ORD-0006,2026-08-01,C012,Sandwiches,Walk-in,8.56,completed
+ORD-0007,2026-08-01,C126,Drinks,Walk-in,4.64,completed
+ORD-0008,2026-08-01,C001,Bread,Walk-in,2.47,cancelled
+ORD-0009,2026-08-01,C022,Pastry,Walk-in,5.58,completed
+ORD-0010,2026-08-01,C051,Drinks,Walk-in,7.0,completed
+ORD-0011,2026-08-01,C038,Pastry,Walk-in,4.55,completed
+ORD-0012,2026-08-01,C039,Cakes,Delivery app,34.04,completed
+ORD-0013,2026-08-01,C104,Sandwiches,Phone,6.88,completed
+ORD-0014,2026-08-01,C134,Bread,Delivery app,2.22,completed
+ORD-0015,2026-08-01,C094,Sandwiches,Walk-in,4.43,completed
+ORD-0016,2026-08-01,C098,Pastry,Delivery app,11.89,completed
+ORD-0017,2026-08-02,C070,Pastry,Walk-in,3.73,completed
+ORD-0018,2026-08-02,C015,Bread,Walk-in,2.26,completed
+ORD-0019,2026-08-02,C064,Sandwiches,Delivery app,8.04,completed
+ORD-0020,2026-08-02,C103,Bread,Walk-in,2.3,cancelled
+ORD-0021,2026-08-02,C044,Drinks,Delivery app,3.68,completed
+ORD-0022,2026-08-02,C043,Drinks,Phone,2.09,completed
+ORD-0023,2026-08-02,C100,Cakes,Walk-in,12.27,completed
+ORD-0024,2026-08-02,C072,Bread,Walk-in,2.6,completed
+ORD-0025,2026-08-02,C108,Bread,Walk-in,4.22,completed
+ORD-0026,2026-08-02,C044,Sandwiches,Delivery app,7.82,completed
+ORD-0027,2026-08-02,C026,Bread,Phone,4.39,completed
+ORD-0028,2026-08-02,C042,Bread,Delivery app,2.51,completed
+ORD-0029,2026-08-02,C140,Bread,Walk-in,1.03,completed
+ORD-0030,2026-08-02,C008,Bread,Delivery app,1.96,completed
+ORD-0031,2026-08-02,C138,Cakes,Delivery app,22.02,completed
+ORD-0032,2026-08-02,C077,Sandwiches,Walk-in,16.77,completed
+ORD-0033,2026-08-02,C117,Bread,Walk-in,1.27,completed
+ORD-0034,2026-08-02,C096,Drinks,Walk-in,8.37,completed
+ORD-0035,2026-08-03,C010,Drinks,Delivery app,3.72,completed
+ORD-0036,2026-08-03,C018,Bread,Walk-in,1.09,completed
+ORD-0037,2026-08-03,C091,Bread,Delivery app,2.51,completed
+ORD-0038,2026-08-03,C086,Pastry,Walk-in,7.8,completed
+ORD-0039,2026-08-03,C099,Pastry,Phone,3.86,completed
+ORD-0040,2026-08-03,C116,Sandwiches,Delivery app,4.53,completed
+ORD-0041,2026-08-03,C020,Bread,Phone,1.44,completed
+ORD-0042,2026-08-04,C134,Drinks,Walk-in,6.23,completed
+ORD-0043,2026-08-04,C133,Drinks,Delivery app,2.24,completed
+ORD-0044,2026-08-04,C027,Bread,Walk-in,3.01,completed
+ORD-0045,2026-08-04,C057,Pastry,Delivery app,5.6,completed
+ORD-0046,2026-08-04,C091,Sandwiches,Delivery app,4.66,completed
+ORD-0047,2026-08-04,C025,Drinks,Walk-in,4.79,cancelled
+ORD-0048,2026-08-04,C089,Pastry,Delivery app,3.67,completed
+ORD-0049,2026-08-04,C119,Drinks,Walk-in,3.29,completed
+ORD-0050,2026-08-04,C103,Drinks,Walk-in,3.37,completed
+ORD-0051,2026-08-05,C036,Bread,Phone,1.42,completed
+ORD-0052,2026-08-05,C099,Bread,Walk-in,5.9,completed
+ORD-0053,2026-08-05,C108,Pastry,Walk-in,3.34,completed
+ORD-0054,2026-08-05,C119,Drinks,Delivery app,5.94,completed
+ORD-0055,2026-08-05,C081,Bread,Walk-in,2.07,completed
+ORD-0056,2026-08-05,C104,Bread,Delivery app,1.33,completed
+ORD-0057,2026-08-05,C131,Pastry,Delivery app,11.11,completed
+ORD-0058,2026-08-05,C047,Pastry,Delivery app,3.08,cancelled
+ORD-0059,2026-08-05,C006,Sandwiches,Walk-in,4.89,completed
+ORD-0060,2026-08-05,C024,Pastry,Walk-in,5.02,cancelled
+ORD-0061,2026-08-05,C046,Bread,Walk-in,3.81,refunded
+ORD-0062,2026-08-06,C072,Sandwiches,Phone,11.48,completed
+ORD-0063,2026-08-06,C117,Bread,Walk-in,2.75,completed
+ORD-0064,2026-08-06,C052,Bread,Delivery app,2.09,completed
+ORD-0065,2026-08-06,C091,Pastry,Walk-in,4.08,refunded
+ORD-0066,2026-08-06,C112,Bread,Delivery app,2.62,completed
+ORD-0067,2026-08-06,C022,Drinks,Delivery app,3.67,cancelled
+ORD-0068,2026-08-06,C048,Bread,Delivery app,1.49,cancelled
+ORD-0069,2026-08-06,C045,Bread,Walk-in,2.32,completed
+ORD-0070,2026-08-06,C087,Sandwiches,Walk-in,6.93,completed
+ORD-0071,2026-08-06,C063,Bread,Walk-in,1.6,completed
+ORD-0072,2026-08-06,C052,Drinks,Delivery app,2.13,completed
+ORD-0073,2026-08-06,C129,Sandwiches,Walk-in,8.62,completed
+ORD-0074,2026-08-07,C025,Pastry,Walk-in,3.14,completed
+ORD-0075,2026-08-07,C089,Pastry,Walk-in,3.04,completed
+ORD-0076,2026-08-07,C080,Drinks,Phone,8.43,completed
+ORD-0077,2026-08-07,C032,Bread,Walk-in,2.72,completed
+ORD-0078,2026-08-07,C070,Bread,Walk-in,2.05,completed
+ORD-0079,2026-08-07,C008,Cakes,Walk-in,19.43,completed
+ORD-0080,2026-08-07,C113,Drinks,Walk-in,2.27,completed
+ORD-0081,2026-08-07,C105,Pastry,Delivery app,4.82,completed
+ORD-0082,2026-08-07,C108,Drinks,Walk-in,4.35,completed
+ORD-0083,2026-08-08,C133,Cakes,Delivery app,32.63,completed
+ORD-0084,2026-08-08,C075,Bread,Walk-in,2.95,completed
+ORD-0085,2026-08-08,C015,Sandwiches,Delivery app,13.33,completed
+ORD-0086,2026-08-08,C094,Sandwiches,Walk-in,7.4,completed
+ORD-0087,2026-08-08,C047,Bread,Walk-in,2.91,completed
+ORD-0088,2026-08-08,C005,Bread,Walk-in,2.43,completed
+ORD-0089,2026-08-08,C121,Bread,Walk-in,1.52,refunded
+ORD-0090,2026-08-08,C002,Bread,Walk-in,1.58,completed
+ORD-0091,2026-08-08,C048,Cakes,Phone,20.75,completed
+ORD-0092,2026-08-08,C108,Bread,Delivery app,2.05,completed
+ORD-0093,2026-08-08,C130,Bread,Delivery app,3.89,completed
+ORD-0094,2026-08-08,C137,Pastry,Delivery app,4.72,completed
+ORD-0095,2026-08-08,C087,Pastry,Walk-in,2.36,completed
+ORD-0096,2026-08-08,C126,Pastry,Delivery app,8.7,completed
+ORD-0097,2026-08-08,C073,Pastry,Walk-in,11.52,completed
+ORD-0098,2026-08-08,C044,Cakes,Walk-in,63.56,completed
+ORD-0099,2026-08-08,C133,Sandwiches,Phone,11.3,completed
+ORD-0100,2026-08-08,C082,Drinks,Delivery app,2.97,completed
+ORD-0101,2026-08-08,C073,Pastry,Phone,3.91,cancelled
+ORD-0102,2026-08-08,C122,Drinks,Walk-in,2.77,completed
+ORD-0103,2026-08-08,C011,Pastry,Phone,3.81,completed
+ORD-0104,2026-08-08,C021,Bread,Walk-in,2.37,completed
+ORD-0105,2026-08-08,C075,Cakes,Delivery app,33.8,completed
+ORD-0106,2026-08-08,C025,Pastry,Walk-in,2.68,completed
+ORD-0107,2026-08-08,C058,Drinks,Walk-in,4.95,completed
+ORD-0108,2026-08-08,C138,Sandwiches,Walk-in,7.37,completed
+ORD-0109,2026-08-08,C023,Drinks,Walk-in,3.99,completed
+ORD-0110,2026-08-09,C117,Bread,Walk-in,2.09,completed
+ORD-0111,2026-08-09,C086,Cakes,Walk-in,30.6,completed
+ORD-0112,2026-08-09,C022,Pastry,Walk-in,5.23,completed
+ORD-0113,2026-08-09,C115,Bread,Walk-in,2.13,completed
+ORD-0114,2026-08-09,C088,Cakes,Walk-in,12.15,completed
+ORD-0115,2026-08-09,C104,Bread,Delivery app,2.59,completed
+ORD-0116,2026-08-09,C005,Bread,Delivery app,1.47,completed
+ORD-0117,2026-08-09,C072,Bread,Delivery app,1.14,completed
+ORD-0118,2026-08-09,C130,Pastry,Walk-in,3.66,completed
+ORD-0119,2026-08-09,C026,Pastry,Delivery app,3.04,cancelled
+ORD-0120,2026-08-09,C123,Cakes,Delivery app,26.89,completed
+ORD-0121,2026-08-09,C071,Sandwiches,Walk-in,6.61,cancelled
+ORD-0122,2026-08-09,C022,Cakes,Walk-in,54.61,completed
+ORD-0123,2026-08-09,C014,Sandwiches,Delivery app,15.09,completed
+ORD-0124,2026-08-09,C019,Sandwiches,Walk-in,11.0,completed
+ORD-0125,2026-08-09,C025,Drinks,Walk-in,5.26,completed
+ORD-0126,2026-08-09,C071,Pastry,Delivery app,7.68,completed
+ORD-0127,2026-08-09,C066,Bread,Walk-in,2.81,completed
+ORD-0128,2026-08-09,C005,Bread,Phone,2.39,completed
+ORD-0129,2026-08-09,C014,Drinks,Walk-in,3.7,completed
+ORD-0130,2026-08-09,C037,Sandwiches,Delivery app,5.74,completed
+ORD-0131,2026-08-09,C115,Pastry,Delivery app,3.84,completed
+ORD-0132,2026-08-10,C121,Bread,Delivery app,1.94,completed
+ORD-0133,2026-08-10,C048,Bread,Walk-in,1.32,completed
+ORD-0134,2026-08-10,C095,Cakes,Walk-in,27.41,completed
+ORD-0135,2026-08-10,C113,Bread,Walk-in,2.66,completed
+ORD-0136,2026-08-10,C102,Drinks,Delivery app,4.91,completed
+ORD-0137,2026-08-10,C012,Pastry,Delivery app,3.26,completed
+ORD-0138,2026-08-10,C117,Pastry,Phone,5.57,completed
+ORD-0139,2026-08-10,C086,Pastry,Walk-in,6.9,completed
+ORD-0140,2026-08-10,C068,Sandwiches,Walk-in,6.21,cancelled
+ORD-0141,2026-08-11,C015,Drinks,Delivery app,2.15,completed
+ORD-0142,2026-08-11,C064,Bread,Walk-in,4.42,completed
+ORD-0143,2026-08-11,C094,Pastry,Walk-in,2.63,completed
+ORD-0144,2026-08-11,C107,Pastry,Walk-in,8.44,completed
+ORD-0145,2026-08-11,C098,Drinks,Phone,2.05,completed
+ORD-0146,2026-08-11,C124,Sandwiches,Delivery app,6.98,completed
+ORD-0147,2026-08-11,C063,Drinks,Phone,2.58,cancelled
+ORD-0148,2026-08-11,C018,Sandwiches,Walk-in,8.39,cancelled
+ORD-0149,2026-08-11,C130,Pastry,Delivery app,3.85,completed
+ORD-0150,2026-08-11,C016,Pastry,Walk-in,3.48,completed
+ORD-0151,2026-08-11,C057,Bread,Delivery app,1.89,cancelled
+ORD-0152,2026-08-11,C089,Drinks,Phone,8.07,completed
+ORD-0153,2026-08-11,C006,Bread,Delivery app,1.24,completed
+ORD-0154,2026-08-11,C101,Drinks,Walk-in,7.0,completed
+ORD-0155,2026-08-12,C070,Bread,Delivery app,2.73,completed
+ORD-0156,2026-08-12,C095,Drinks,Walk-in,4.4,completed
+ORD-0157,2026-08-12,C001,Drinks,Phone,2.01,completed
+ORD-0158,2026-08-12,C008,Bread,Delivery app,3.24,completed
+ORD-0159,2026-08-12,C027,Drinks,Delivery app,8.46,completed
+ORD-0160,2026-08-12,C004,Pastry,Walk-in,5.19,completed
+ORD-0161,2026-08-12,C002,Sandwiches,Delivery app,8.51,completed
+ORD-0162,2026-08-12,C030,Bread,Walk-in,2.42,completed
+ORD-0163,2026-08-12,C101,Drinks,Delivery app,4.97,completed
+ORD-0164,2026-08-12,C139,Bread,Phone,4.4,refunded
+ORD-0165,2026-08-12,C116,Sandwiches,Walk-in,5.2,completed
+ORD-0166,2026-08-13,C073,Drinks,Walk-in,3.49,completed
+ORD-0167,2026-08-13,C099,Drinks,Walk-in,2.27,completed
+ORD-0168,2026-08-13,C031,Sandwiches,Phone,8.42,completed
+ORD-0169,2026-08-13,C041,Sandwiches,Walk-in,9.21,cancelled
+ORD-0170,2026-08-13,C020,Bread,Walk-in,2.61,completed
+ORD-0171,2026-08-13,C078,Drinks,Walk-in,4.73,completed
+ORD-0172,2026-08-14,C024,Pastry,Walk-in,5.75,cancelled
+ORD-0173,2026-08-14,C034,Bread,Walk-in,2.37,completed
+ORD-0174,2026-08-14,C020,Pastry,Walk-in,8.1,completed
+ORD-0175,2026-08-14,C097,Bread,Delivery app,2.91,completed
+ORD-0176,2026-08-14,C132,Pastry,Delivery app,4.44,completed
+ORD-0177,2026-08-14,C004,Sandwiches,Delivery app,7.84,completed
+ORD-0178,2026-08-14,C023,Drinks,Phone,5.91,completed
+ORD-0179,2026-08-14,C127,Sandwiches,Walk-in,8.63,completed
+ORD-0180,2026-08-14,C137,Cakes,Phone,66.86,completed
+ORD-0181,2026-08-14,C034,Cakes,Delivery app,59.7,completed
+ORD-0182,2026-08-14,C135,Pastry,Delivery app,3.86,completed
+ORD-0183,2026-08-14,C041,Pastry,Delivery app,4.53,cancelled
+ORD-0184,2026-08-15,C137,Sandwiches,Walk-in,8.0,completed
+ORD-0185,2026-08-15,C110,Pastry,Walk-in,7.41,completed
+ORD-0186,2026-08-15,C003,Pastry,Delivery app,4.61,completed
+ORD-0187,2026-08-15,C116,Drinks,Walk-in,4.42,completed
+ORD-0188,2026-08-15,C027,Sandwiches,Walk-in,7.37,cancelled
+ORD-0189,2026-08-15,C093,Cakes,Phone,32.08,completed
+ORD-0190,2026-08-15,C097,Bread,Walk-in,2.82,completed
+ORD-0191,2026-08-15,C089,Pastry,Walk-in,5.18,completed
+ORD-0192,2026-08-15,C091,Pastry,Delivery app,8.88,completed
+ORD-0193,2026-08-15,C085,Pastry,Walk-in,10.18,completed
+ORD-0194,2026-08-15,C045,Drinks,Phone,6.52,completed
+ORD-0195,2026-08-15,C087,Bread,Delivery app,2.14,completed
+ORD-0196,2026-08-15,C134,Bread,Walk-in,2.15,completed
+ORD-0197,2026-08-15,C130,Bread,Walk-in,1.09,completed
+ORD-0198,2026-08-15,C116,Drinks,Walk-in,2.4,completed
+ORD-0199,2026-08-15,C087,Pastry,Delivery app,2.89,completed
+ORD-0200,2026-08-15,C130,Pastry,Delivery app,9.06,completed
+ORD-0201,2026-08-15,C074,Pastry,Delivery app,9.39,completed
+ORD-0202,2026-08-15,C050,Pastry,Walk-in,2.15,completed
+ORD-0203,2026-08-15,C140,Cakes,Walk-in,56.63,completed
+ORD-0204,2026-08-15,C078,Drinks,Delivery app,2.56,completed
+ORD-0205,2026-08-15,C027,Bread,Walk-in,5.64,completed
+ORD-0206,2026-08-15,C111,Cakes,Phone,24.42,completed
+ORD-0207,2026-08-15,C003,Cakes,Delivery app,30.14,completed
+ORD-0208,2026-08-16,C066,Pastry,Walk-in,2.45,completed
+ORD-0209,2026-08-16,C132,Pastry,Phone,11.35,completed
+ORD-0210,2026-08-16,C082,Cakes,Delivery app,67.77,completed
+ORD-0211,2026-08-16,C017,Drinks,Walk-in,3.65,completed
+ORD-0212,2026-08-16,C078,Pastry,Delivery app,5.77,completed
+ORD-0213,2026-08-16,C008,Sandwiches,Walk-in,9.15,completed
+ORD-0214,2026-08-16,C131,Pastry,Walk-in,4.69,completed
+ORD-0215,2026-08-16,C101,Pastry,Delivery app,4.53,completed
+ORD-0216,2026-08-16,C078,Bread,Walk-in,4.99,completed
+ORD-0217,2026-08-16,C075,Sandwiches,Delivery app,14.61,completed
+ORD-0218,2026-08-16,C062,Pastry,Walk-in,7.15,completed
+ORD-0219,2026-08-16,C009,Pastry,Phone,4.86,completed
+ORD-0220,2026-08-16,C132,Cakes,Walk-in,20.79,completed
+ORD-0221,2026-08-16,C030,Bread,Delivery app,1.87,completed
+ORD-0222,2026-08-16,C034,Drinks,Delivery app,4.96,completed
+ORD-0223,2026-08-16,C097,Sandwiches,Phone,4.04,refunded
+ORD-0224,2026-08-16,C068,Bread,Walk-in,2.23,completed
+ORD-0225,2026-08-16,C040,Sandwiches,Delivery app,16.95,completed
+ORD-0226,2026-08-16,C061,Pastry,Phone,10.79,completed
+ORD-0227,2026-08-16,C127,Drinks,Walk-in,4.25,completed
+ORD-0228,2026-08-16,C124,Drinks,Walk-in,3.19,completed
+ORD-0229,2026-08-16,C093,Sandwiches,Walk-in,5.61,completed
+ORD-0230,2026-08-16,C137,Pastry,Delivery app,2.95,completed
+ORD-0231,2026-08-17,C121,Pastry,Walk-in,3.78,completed
+ORD-0232,2026-08-17,C115,Bread,Phone,5.11,completed
+ORD-0233,2026-08-17,C104,Sandwiches,Walk-in,13.5,completed
+ORD-0234,2026-08-17,C064,Cakes,Delivery app,31.35,cancelled
+ORD-0235,2026-08-17,C096,Pastry,Walk-in,4.78,completed
+ORD-0236,2026-08-17,C005,Sandwiches,Delivery app,7.93,completed
+ORD-0237,2026-08-17,C099,Bread,Walk-in,2.96,completed
+ORD-0238,2026-08-17,C121,Sandwiches,Walk-in,16.31,completed
+ORD-0239,2026-08-18,C015,Pastry,Delivery app,3.39,completed
+ORD-0240,2026-08-18,C021,Pastry,Walk-in,5.05,completed
+ORD-0241,2026-08-18,C070,Pastry,Phone,3.08,completed
+ORD-0242,2026-08-18,C046,Bread,Walk-in,2.53,completed
+ORD-0243,2026-08-18,C062,Pastry,Walk-in,5.57,completed
+ORD-0244,2026-08-18,C041,Pastry,Phone,5.13,cancelled
+ORD-0245,2026-08-18,C061,Drinks,Walk-in,2.53,refunded
+ORD-0246,2026-08-18,C072,Cakes,Walk-in,30.07,completed
+ORD-0247,2026-08-18,C131,Pastry,Delivery app,10.86,completed
+ORD-0248,2026-08-18,C089,Cakes,Walk-in,24.81,completed
+ORD-0249,2026-08-19,C069,Bread,Delivery app,2.75,completed
+ORD-0250,2026-08-19,C040,Bread,Delivery app,4.2,completed
+ORD-0251,2026-08-19,C022,Bread,Delivery app,2.52,completed
+ORD-0252,2026-08-19,C066,Bread,Walk-in,2.93,completed
+ORD-0253,2026-08-19,C094,Pastry,Walk-in,2.42,completed
+ORD-0254,2026-08-19,C089,Cakes,Delivery app,28.1,completed
+ORD-0255,2026-08-19,C125,Pastry,Walk-in,2.92,cancelled
+ORD-0256,2026-08-20,C070,Sandwiches,Delivery app,8.43,completed
+ORD-0257,2026-08-20,C088,Pastry,Delivery app,10.06,completed
+ORD-0258,2026-08-20,C085,Cakes,Walk-in,22.04,completed
+ORD-0259,2026-08-20,C046,Pastry,Walk-in,10.74,completed
+ORD-0260,2026-08-20,C132,Sandwiches,Delivery app,7.97,completed
+ORD-0261,2026-08-20,C010,Bread,Walk-in,2.61,completed
+ORD-0262,2026-08-20,C041,Drinks,Walk-in,4.38,completed
+ORD-0263,2026-08-20,C048,Pastry,Walk-in,8.07,completed
+ORD-0264,2026-08-20,C049,Cakes,Phone,37.09,completed
+ORD-0265,2026-08-20,C042,Pastry,Walk-in,5.52,cancelled
+ORD-0266,2026-08-21,C041,Drinks,Walk-in,4.12,cancelled
+ORD-0267,2026-08-21,C060,Pastry,Walk-in,3.08,completed
+ORD-0268,2026-08-21,C123,Drinks,Walk-in,4.34,completed
+ORD-0269,2026-08-21,C135,Bread,Walk-in,2.38,completed
+ORD-0270,2026-08-21,C124,Pastry,Delivery app,6.12,completed
+ORD-0271,2026-08-21,C063,Sandwiches,Delivery app,5.69,completed
+ORD-0272,2026-08-21,C093,Pastry,Walk-in,3.54,completed
+ORD-0273,2026-08-21,C117,Pastry,Delivery app,3.17,completed
+ORD-0274,2026-08-21,C117,Drinks,Walk-in,5.34,completed
+ORD-0275,2026-08-21,C057,Pastry,Delivery app,2.28,cancelled
+ORD-0276,2026-08-21,C092,Pastry,Walk-in,2.46,completed
+ORD-0277,2026-08-21,C113,Cakes,Phone,12.04,completed
+ORD-0278,2026-08-21,C120,Sandwiches,Delivery app,8.45,completed
+ORD-0279,2026-08-21,C082,Pastry,Walk-in,4.8,completed
+ORD-0280,2026-08-22,C045,Bread,Phone,3.28,completed
+ORD-0281,2026-08-22,C124,Sandwiches,Delivery app,8.98,completed
+ORD-0282,2026-08-22,C059,Bread,Delivery app,2.81,completed
+ORD-0283,2026-08-22,C043,Drinks,Delivery app,2.92,completed
+ORD-0284,2026-08-22,C038,Pastry,Walk-in,3.69,completed
+ORD-0285,2026-08-22,C011,Pastry,Walk-in,5.51,completed
+ORD-0286,2026-08-22,C106,Bread,Walk-in,1.46,cancelled
+ORD-0287,2026-08-22,C041,Sandwiches,Delivery app,7.98,completed
+ORD-0288,2026-08-22,C006,Pastry,Delivery app,5.55,completed
+ORD-0289,2026-08-22,C078,Sandwiches,Walk-in,8.57,completed
+ORD-0290,2026-08-22,C034,Bread,Delivery app,4.85,completed
+ORD-0291,2026-08-22,C081,Bread,Walk-in,1.07,refunded
+ORD-0292,2026-08-22,C073,Bread,Phone,1.84,completed
+ORD-0293,2026-08-22,C011,Pastry,Walk-in,9.69,completed
+ORD-0294,2026-08-22,C103,Pastry,Walk-in,2.51,completed
+ORD-0295,2026-08-22,C089,Cakes,Delivery app,23.47,completed
+ORD-0296,2026-08-22,C095,Pastry,Delivery app,5.28,completed
+ORD-0297,2026-08-22,C004,Sandwiches,Walk-in,13.04,completed
+ORD-0298,2026-08-22,C049,Sandwiches,Walk-in,16.89,completed
+ORD-0299,2026-08-22,C019,Cakes,Walk-in,13.34,completed
+ORD-0300,2026-08-22,C124,Pastry,Delivery app,4.53,completed
+ORD-0301,2026-08-22,C033,Sandwiches,Delivery app,7.51,completed
+ORD-0302,2026-08-22,C100,Sandwiches,Phone,15.34,completed
+ORD-0303,2026-08-22,C115,Drinks,Walk-in,5.52,completed
+ORD-0304,2026-08-23,C055,Drinks,Walk-in,2.16,completed
+ORD-0305,2026-08-23,C089,Bread,Phone,2.31,completed
+ORD-0306,2026-08-23,C057,Bread,Walk-in,4.91,completed
+ORD-0307,2026-08-23,C072,Drinks,Walk-in,4.79,completed
+ORD-0308,2026-08-23,C104,Pastry,Phone,5.56,completed
+ORD-0309,2026-08-23,C081,Bread,Delivery app,2.16,refunded
+ORD-0310,2026-08-23,C037,Sandwiches,Delivery app,8.55,completed
+ORD-0311,2026-08-23,C105,Pastry,Phone,5.68,completed
+ORD-0312,2026-08-23,C064,Sandwiches,Walk-in,12.59,completed
+ORD-0313,2026-08-23,C022,Bread,Phone,2.25,completed
+ORD-0314,2026-08-23,C067,Drinks,Walk-in,4.41,completed
+ORD-0315,2026-08-23,C082,Pastry,Walk-in,7.2,completed
+ORD-0316,2026-08-23,C113,Sandwiches,Walk-in,6.65,completed
+ORD-0317,2026-08-23,C088,Bread,Walk-in,4.52,completed
+ORD-0318,2026-08-23,C078,Cakes,Walk-in,14.49,completed
+ORD-0319,2026-08-23,C048,Pastry,Walk-in,4.7,completed
+ORD-0320,2026-08-24,C064,Sandwiches,Delivery app,8.56,completed
+ORD-0321,2026-08-24,C074,Sandwiches,Delivery app,8.23,completed
+ORD-0322,2026-08-24,C133,Bread,Delivery app,2.46,completed
+ORD-0323,2026-08-24,C018,Cakes,Walk-in,16.75,completed
+ORD-0324,2026-08-24,C113,Pastry,Delivery app,5.48,completed
+ORD-0325,2026-08-24,C011,Sandwiches,Delivery app,8.31,completed
+ORD-0326,2026-08-24,C059,Bread,Delivery app,1.72,completed
+ORD-0327,2026-08-24,C009,Pastry,Delivery app,4.23,completed
+ORD-0328,2026-08-24,C124,Drinks,Delivery app,9.04,completed
+ORD-0329,2026-08-25,C006,Pastry,Walk-in,3.09,completed
+ORD-0330,2026-08-25,C038,Pastry,Walk-in,2.4,completed
+ORD-0331,2026-08-25,C137,Drinks,Walk-in,4.22,completed
+ORD-0332,2026-08-25,C126,Bread,Walk-in,2.53,completed
+ORD-0333,2026-08-25,C066,Bread,Phone,4.19,completed
+ORD-0334,2026-08-25,C134,Cakes,Delivery app,58.36,completed
+ORD-0335,2026-08-25,C002,Bread,Walk-in,2.86,completed
+ORD-0336,2026-08-25,C030,Cakes,Delivery app,54.58,completed
+ORD-0337,2026-08-25,C118,Pastry,Delivery app,8.2,completed
+ORD-0338,2026-08-25,C128,Sandwiches,Delivery app,13.98,completed
+ORD-0339,2026-08-25,C025,Pastry,Delivery app,2.18,cancelled
+ORD-0340,2026-08-25,C009,Sandwiches,Walk-in,16.13,completed
+ORD-0341,2026-08-26,C046,Sandwiches,Walk-in,13.77,completed
+ORD-0342,2026-08-26,C025,Bread,Walk-in,2.98,completed
+ORD-0343,2026-08-26,C001,Drinks,Walk-in,4.48,completed
+ORD-0344,2026-08-26,C078,Sandwiches,Delivery app,6.19,completed
+ORD-0345,2026-08-26,C097,Drinks,Delivery app,2.9,completed
+ORD-0346,2026-08-26,C042,Sandwiches,Walk-in,4.9,completed
+ORD-0347,2026-08-26,C120,Cakes,Delivery app,39.69,completed
+ORD-0348,2026-08-26,C083,Pastry,Walk-in,3.39,completed
+ORD-0349,2026-08-27,C107,Bread,Delivery app,4.45,completed
+ORD-0350,2026-08-27,C102,Pastry,Walk-in,5.7,completed
+ORD-0351,2026-08-27,C024,Drinks,Walk-in,4.55,cancelled
+ORD-0352,2026-08-27,C059,Drinks,Walk-in,4.95,completed
+ORD-0353,2026-08-27,C039,Bread,Walk-in,1.56,completed
+ORD-0354,2026-08-27,C078,Drinks,Phone,4.03,completed
+ORD-0355,2026-08-27,C067,Drinks,Delivery app,4.35,refunded
+ORD-0356,2026-08-27,C025,Pastry,Delivery app,3.57,completed
+ORD-0357,2026-08-27,C043,Cakes,Walk-in,22.16,completed
+ORD-0358,2026-08-27,C099,Bread,Phone,1.08,completed
+ORD-0359,2026-08-27,C018,Bread,Walk-in,2.06,completed
+ORD-0360,2026-08-27,C114,Bread,Walk-in,1.38,completed
+ORD-0361,2026-08-27,C084,Bread,Walk-in,4.67,completed
+ORD-0362,2026-08-27,C068,Pastry,Walk-in,5.85,completed
+ORD-0363,2026-08-28,C024,Pastry,Phone,2.09,completed
+ORD-0364,2026-08-28,C057,Bread,Phone,5.11,completed
+ORD-0365,2026-08-28,C056,Bread,Phone,2.77,completed
+ORD-0366,2026-08-28,C025,Pastry,Walk-in,2.73,completed
+ORD-0367,2026-08-28,C063,Sandwiches,Walk-in,17.81,completed
+ORD-0368,2026-08-28,C016,Cakes,Walk-in,19.07,completed
+ORD-0369,2026-08-28,C094,Pastry,Delivery app,5.52,completed
+ORD-0370,2026-08-28,C133,Sandwiches,Walk-in,12.48,completed
+ORD-0371,2026-08-28,C044,Drinks,Delivery app,3.7,completed
+ORD-0372,2026-08-28,C038,Sandwiches,Walk-in,6.15,completed
+ORD-0373,2026-08-28,C074,Cakes,Delivery app,12.84,completed
+ORD-0374,2026-08-28,C120,Drinks,Walk-in,3.63,cancelled
+ORD-0375,2026-08-28,C036,Pastry,Walk-in,4.83,completed
+ORD-0376,2026-08-28,C074,Drinks,Walk-in,2.21,completed
+ORD-0377,2026-08-28,C140,Drinks,Walk-in,2.98,completed
+ORD-0378,2026-08-28,C021,Bread,Delivery app,1.76,completed
+ORD-0379,2026-08-28,C100,Drinks,Walk-in,3.57,completed
+ORD-0380,2026-08-29,C081,Sandwiches,Walk-in,8.24,completed
+ORD-0381,2026-08-29,C024,Cakes,Delivery app,50.2,completed
+ORD-0382,2026-08-29,C031,Sandwiches,Walk-in,9.1,completed
+ORD-0383,2026-08-29,C073,Sandwiches,Walk-in,5.75,completed
+ORD-0384,2026-08-29,C091,Drinks,Delivery app,5.18,completed
+ORD-0385,2026-08-29,C030,Bread,Delivery app,2.17,completed
+ORD-0386,2026-08-29,C113,Pastry,Phone,9.59,completed
+ORD-0387,2026-08-29,C022,Cakes,Delivery app,24.46,completed
+ORD-0388,2026-08-29,C121,Drinks,Delivery app,5.4,completed
+ORD-0389,2026-08-29,C031,Bread,Walk-in,2.56,completed
+ORD-0390,2026-08-29,C048,Pastry,Delivery app,2.9,completed
+ORD-0391,2026-08-29,C130,Drinks,Walk-in,4.49,completed
+ORD-0392,2026-08-29,C100,Pastry,Walk-in,4.67,completed
+ORD-0393,2026-08-29,C089,Cakes,Walk-in,68.29,completed
+ORD-0394,2026-08-29,C116,Cakes,Walk-in,27.4,completed
+ORD-0395,2026-08-29,C005,Bread,Walk-in,3.05,completed
+ORD-0396,2026-08-29,C097,Sandwiches,Delivery app,13.82,completed
+ORD-0397,2026-08-29,C044,Bread,Walk-in,1.07,completed
+ORD-0398,2026-08-29,C054,Bread,Walk-in,2.23,completed
+ORD-0399,2026-08-29,C028,Bread,Delivery app,2.43,completed
+ORD-0400,2026-08-29,C085,Drinks,Walk-in,2.16,completed
+ORD-0401,2026-08-29,C025,Pastry,Walk-in,2.67,completed
+ORD-0402,2026-08-29,C084,Bread,Delivery app,2.79,completed
+ORD-0403,2026-08-29,C124,Drinks,Delivery app,3.69,completed
+ORD-0404,2026-08-30,C022,Bread,Phone,1.13,completed
+ORD-0405,2026-08-30,C056,Drinks,Walk-in,7.23,completed
+ORD-0406,2026-08-30,C106,Bread,Phone,3.69,completed
+ORD-0407,2026-08-30,C048,Pastry,Walk-in,4.71,completed
+ORD-0408,2026-08-30,C071,Bread,Walk-in,2.61,completed
+ORD-0409,2026-08-30,C061,Pastry,Walk-in,6.63,completed
+ORD-0410,2026-08-30,C030,Bread,Walk-in,1.62,refunded
+ORD-0411,2026-08-30,C129,Cakes,Walk-in,27.96,completed
+ORD-0412,2026-08-30,C113,Cakes,Walk-in,14.9,completed
+ORD-0413,2026-08-30,C078,Sandwiches,Walk-in,17.28,completed
+ORD-0414,2026-08-30,C036,Pastry,Phone,2.83,completed
+ORD-0415,2026-08-30,C048,Bread,Delivery app,3.93,completed
+ORD-0416,2026-08-31,C094,Pastry,Delivery app,7.35,completed
+ORD-0417,2026-08-31,C083,Bread,Phone,2.22,completed
+ORD-0418,2026-08-31,C078,Cakes,Walk-in,60.15,completed
+ORD-0419,2026-08-31,C046,Bread,Delivery app,3.96,completed
+ORD-0420,2026-08-31,C082,Bread,Walk-in,1.73,completed
+ORD-0421,2026-08-31,C041,Pastry,Delivery app,8.92,completed
+ORD-0422,2026-08-31,C118,Bread,Walk-in,2.82,cancelled
+ORD-0423,2026-08-31,C003,Bread,Phone,2.96,completed
+ORD-0424,2026-09-01,C022,Drinks,Walk-in,3.83,completed
+ORD-0425,2026-09-01,C090,Bread,Delivery app,4.86,completed
+ORD-0426,2026-09-01,C005,Sandwiches,Delivery app,11.14,completed
+ORD-0427,2026-09-01,C080,Pastry,Walk-in,2.17,completed
+ORD-0428,2026-09-01,C039,Pastry,Delivery app,10.07,completed
+ORD-0429,2026-09-01,C055,Bread,Walk-in,2.15,completed
+ORD-0430,2026-09-01,C016,Sandwiches,Walk-in,9.52,completed
+ORD-0431,2026-09-01,C088,Bread,Delivery app,2.06,completed
+ORD-0432,2026-09-01,C004,Pastry,Walk-in,2.55,completed
+ORD-0433,2026-09-01,C069,Bread,Delivery app,2.15,completed
+ORD-0434,2026-09-01,C102,Sandwiches,Delivery app,16.39,completed
+ORD-0435,2026-09-01,C115,Bread,Delivery app,1.31,completed
+ORD-0436,2026-09-02,C093,Pastry,Walk-in,2.5,completed
+ORD-0437,2026-09-02,C139,Bread,Delivery app,2.25,completed
+ORD-0438,2026-09-02,C118,Bread,Walk-in,1.03,completed
+ORD-0439,2026-09-02,C035,Bread,Walk-in,1.15,completed
+ORD-0440,2026-09-02,C057,Bread,Delivery app,3.47,completed
+ORD-0441,2026-09-02,C132,Bread,Phone,2.26,completed
+ORD-0442,2026-09-02,C006,Pastry,Delivery app,6.58,refunded
+ORD-0443,2026-09-02,C012,Drinks,Walk-in,2.51,completed
+ORD-0444,2026-09-03,C067,Sandwiches,Walk-in,6.41,completed
+ORD-0445,2026-09-03,C054,Bread,Walk-in,1.02,completed
+ORD-0446,2026-09-03,C127,Drinks,Walk-in,3.02,cancelled
+ORD-0447,2026-09-03,C070,Drinks,Walk-in,7.99,completed
+ORD-0448,2026-09-03,C099,Cakes,Walk-in,31.97,cancelled
+ORD-0449,2026-09-03,C136,Bread,Phone,1.91,completed
+ORD-0450,2026-09-03,C088,Pastry,Walk-in,5.73,completed
+ORD-0451,2026-09-03,C097,Bread,Walk-in,2.96,refunded
+ORD-0452,2026-09-04,C111,Pastry,Delivery app,9.44,completed
+ORD-0453,2026-09-04,C092,Pastry,Walk-in,4.62,completed
+ORD-0454,2026-09-04,C065,Cakes,Walk-in,62.7,completed
+ORD-0455,2026-09-04,C022,Pastry,Walk-in,5.36,cancelled
+ORD-0456,2026-09-04,C063,Bread,Walk-in,2.74,completed
+ORD-0457,2026-09-04,C051,Drinks,Delivery app,2.34,completed
+ORD-0458,2026-09-04,C002,Pastry,Walk-in,4.4,completed
+ORD-0459,2026-09-04,C012,Pastry,Walk-in,5.02,completed
+ORD-0460,2026-09-04,C106,Bread,Walk-in,2.01,completed
+ORD-0461,2026-09-04,C083,Sandwiches,Walk-in,9.81,cancelled
+ORD-0462,2026-09-04,C071,Pastry,Delivery app,8.24,completed
+ORD-0463,2026-09-04,C079,Sandwiches,Walk-in,5.68,completed
+ORD-0464,2026-09-04,C032,Drinks,Delivery app,6.69,completed
+ORD-0465,2026-09-04,C016,Bread,Walk-in,4.86,completed
+ORD-0466,2026-09-05,C060,Drinks,Walk-in,4.25,completed
+ORD-0467,2026-09-05,C090,Pastry,Walk-in,9.43,completed
+ORD-0468,2026-09-05,C015,Sandwiches,Delivery app,7.5,completed
+ORD-0469,2026-09-05,C040,Drinks,Walk-in,3.76,completed
+ORD-0470,2026-09-05,C074,Bread,Walk-in,2.35,completed
+ORD-0471,2026-09-05,C098,Drinks,Walk-in,8.9,completed
+ORD-0472,2026-09-05,C034,Cakes,Walk-in,25.66,cancelled
+ORD-0473,2026-09-05,C100,Pastry,Delivery app,4.58,completed
+ORD-0474,2026-09-05,C020,Bread,Walk-in,1.32,completed
+ORD-0475,2026-09-05,C106,Pastry,Delivery app,6.43,completed
+ORD-0476,2026-09-05,C117,Pastry,Walk-in,5.7,completed
+ORD-0477,2026-09-05,C073,Pastry,Walk-in,4.55,completed
+ORD-0478,2026-09-05,C055,Drinks,Walk-in,3.31,completed
+ORD-0479,2026-09-05,C079,Bread,Delivery app,2.45,completed
+ORD-0480,2026-09-05,C105,Bread,Delivery app,1.46,completed
+ORD-0481,2026-09-05,C091,Bread,Walk-in,1.59,completed
+ORD-0482,2026-09-05,C021,Pastry,Delivery app,2.22,completed
+ORD-0483,2026-09-05,C111,Drinks,Delivery app,8.17,completed
+ORD-0484,2026-09-06,C003,Bread,Walk-in,2.71,completed
+ORD-0485,2026-09-06,C029,Pastry,Delivery app,5.09,completed
+ORD-0486,2026-09-06,C065,Bread,Walk-in,5.74,completed
+ORD-0487,2026-09-06,C124,Drinks,Walk-in,2.53,completed
+ORD-0488,2026-09-06,C042,Pastry,Delivery app,8.47,completed
+ORD-0489,2026-09-06,C117,Cakes,Walk-in,19.44,completed
+ORD-0490,2026-09-06,C073,Bread,Phone,1.99,completed
+ORD-0491,2026-09-06,C049,Drinks,Walk-in,4.01,completed
+ORD-0492,2026-09-06,C070,Bread,Walk-in,4.02,completed
+ORD-0493,2026-09-06,C107,Sandwiches,Walk-in,4.89,completed
+ORD-0494,2026-09-06,C052,Bread,Walk-in,2.37,completed
+ORD-0495,2026-09-06,C081,Cakes,Walk-in,62.61,completed
+ORD-0496,2026-09-06,C019,Pastry,Walk-in,3.36,completed
+ORD-0497,2026-09-06,C107,Bread,Walk-in,1.95,completed
+ORD-0498,2026-09-06,C096,Pastry,Delivery app,3.3,completed
+ORD-0499,2026-09-06,C036,Bread,Walk-in,1.69,cancelled
+ORD-0500,2026-09-06,C084,Sandwiches,Walk-in,4.92,completed
+ORD-0501,2026-09-06,C051,Drinks,Delivery app,2.18,cancelled
+ORD-0502,2026-09-06,C106,Sandwiches,Delivery app,16.68,completed
+ORD-0503,2026-09-06,C129,Bread,Walk-in,2.32,completed
+ORD-0504,2026-09-06,C110,Pastry,Phone,4.4,completed
+ORD-0505,2026-09-07,C098,Sandwiches,Walk-in,7.71,completed
+ORD-0506,2026-09-07,C070,Pastry,Delivery app,9.08,completed
+ORD-0507,2026-09-07,C118,Bread,Walk-in,3.09,completed
+ORD-0508,2026-09-07,C019,Cakes,Delivery app,56.09,completed
+ORD-0509,2026-09-07,C122,Bread,Walk-in,2.64,completed
+ORD-0510,2026-09-07,C120,Pastry,Delivery app,11.9,completed
+ORD-0511,2026-09-07,C019,Pastry,Walk-in,2.87,completed
+ORD-0512,2026-09-07,C010,Sandwiches,Delivery app,7.1,completed
+ORD-0513,2026-09-07,C134,Pastry,Delivery app,9.56,completed
+ORD-0514,2026-09-08,C004,Bread,Walk-in,1.97,cancelled
+ORD-0515,2026-09-08,C113,Sandwiches,Walk-in,6.85,completed
+ORD-0516,2026-09-08,C134,Drinks,Walk-in,4.51,completed
+ORD-0517,2026-09-08,C060,Cakes,Delivery app,17.29,completed
+ORD-0518,2026-09-08,C012,Cakes,Walk-in,15.86,completed
+ORD-0519,2026-09-08,C012,Pastry,Walk-in,4.34,completed
+ORD-0520,2026-09-08,C034,Drinks,Walk-in,2.5,completed
+ORD-0521,2026-09-08,C138,Bread,Phone,1.75,completed
+ORD-0522,2026-09-09,C140,Sandwiches,Walk-in,4.48,completed
+ORD-0523,2026-09-09,C054,Sandwiches,Walk-in,7.38,completed
+ORD-0524,2026-09-09,C123,Bread,Walk-in,1.11,completed
+ORD-0525,2026-09-09,C038,Bread,Walk-in,2.75,completed
+ORD-0526,2026-09-09,C009,Pastry,Walk-in,3.8,completed
+ORD-0527,2026-09-09,C035,Bread,Delivery app,2.51,completed
+ORD-0528,2026-09-09,C088,Drinks,Walk-in,4.8,completed
+ORD-0529,2026-09-09,C140,Pastry,Walk-in,5.43,completed
+ORD-0530,2026-09-10,C003,Sandwiches,Delivery app,5.73,completed
+ORD-0531,2026-09-10,C099,Drinks,Walk-in,7.9,completed
+ORD-0532,2026-09-10,C122,Pastry,Walk-in,4.01,completed
+ORD-0533,2026-09-10,C086,Sandwiches,Walk-in,10.64,completed
+ORD-0534,2026-09-10,C097,Sandwiches,Walk-in,8.58,completed
+ORD-0535,2026-09-10,C013,Sandwiches,Walk-in,10.84,completed
+ORD-0536,2026-09-10,C051,Bread,Walk-in,1.86,completed
+ORD-0537,2026-09-11,C059,Pastry,Delivery app,11.45,completed
+ORD-0538,2026-09-11,C130,Pastry,Walk-in,4.87,completed
+ORD-0539,2026-09-11,C132,Bread,Walk-in,3.98,completed
+ORD-0540,2026-09-11,C020,Bread,Walk-in,5.14,completed
+ORD-0541,2026-09-11,C119,Drinks,Walk-in,4.37,completed
+ORD-0542,2026-09-11,C075,Cakes,Walk-in,32.27,completed
+ORD-0543,2026-09-11,C066,Pastry,Walk-in,3.91,cancelled
+ORD-0544,2026-09-11,C119,Bread,Delivery app,1.76,refunded
+ORD-0545,2026-09-11,C131,Bread,Walk-in,3.74,completed
+ORD-0546,2026-09-11,C101,Pastry,Delivery app,9.75,completed
+ORD-0547,2026-09-11,C118,Pastry,Walk-in,4.22,completed
+ORD-0548,2026-09-11,C018,Sandwiches,Walk-in,8.45,completed
+ORD-0549,2026-09-11,C138,Drinks,Delivery app,4.64,cancelled
+ORD-0550,2026-09-11,C008,Pastry,Delivery app,4.34,completed
+ORD-0551,2026-09-11,C023,Cakes,Walk-in,27.13,completed
+ORD-0552,2026-09-11,C030,Cakes,Walk-in,25.76,completed
+ORD-0553,2026-09-11,C064,Pastry,Delivery app,5.25,completed
+ORD-0554,2026-09-11,C083,Cakes,Walk-in,33.52,completed
+ORD-0555,2026-09-11,C081,Pastry,Delivery app,3.93,completed
+ORD-0556,2026-09-12,C110,Pastry,Delivery app,5.05,cancelled
+ORD-0557,2026-09-12,C056,Pastry,Delivery app,4.39,completed
+ORD-0558,2026-09-12,C050,Bread,Delivery app,4.51,completed
+ORD-0559,2026-09-12,C092,Pastry,Delivery app,4.36,completed
+ORD-0560,2026-09-12,C075,Bread,Walk-in,3.85,cancelled
+ORD-0561,2026-09-12,C060,Pastry,Walk-in,4.06,completed
+ORD-0562,2026-09-12,C006,Bread,Walk-in,2.47,completed
+ORD-0563,2026-09-12,C068,Pastry,Delivery app,4.52,completed
+ORD-0564,2026-09-12,C072,Pastry,Delivery app,6.82,completed
+ORD-0565,2026-09-12,C138,Bread,Phone,5.29,completed
+ORD-0566,2026-09-12,C056,Bread,Walk-in,1.11,completed
+ORD-0567,2026-09-12,C120,Drinks,Walk-in,6.5,completed
+ORD-0568,2026-09-12,C057,Pastry,Walk-in,2.99,completed
+ORD-0569,2026-09-12,C071,Bread,Walk-in,2.33,completed
+ORD-0570,2026-09-12,C013,Drinks,Walk-in,2.46,completed
+ORD-0571,2026-09-12,C060,Sandwiches,Phone,8.55,refunded
+ORD-0572,2026-09-12,C032,Pastry,Delivery app,4.24,cancelled
+ORD-0573,2026-09-12,C018,Bread,Walk-in,2.53,completed
+ORD-0574,2026-09-12,C048,Pastry,Walk-in,3.95,completed
+ORD-0575,2026-09-12,C019,Pastry,Delivery app,4.41,completed
+ORD-0576,2026-09-12,C133,Pastry,Phone,3.73,completed
+ORD-0577,2026-09-12,C015,Pastry,Walk-in,9.3,completed
+ORD-0578,2026-09-13,C010,Pastry,Delivery app,3.23,completed
+ORD-0579,2026-09-13,C139,Drinks,Walk-in,3.56,completed
+ORD-0580,2026-09-13,C087,Bread,Delivery app,1.94,completed
+ORD-0581,2026-09-13,C094,Cakes,Delivery app,33.68,completed
+ORD-0582,2026-09-13,C127,Sandwiches,Phone,5.2,completed
+ORD-0583,2026-09-13,C047,Pastry,Delivery app,6.53,completed
+ORD-0584,2026-09-13,C124,Cakes,Delivery app,26.83,completed
+ORD-0585,2026-09-13,C042,Bread,Delivery app,5.02,completed
+ORD-0586,2026-09-13,C086,Bread,Delivery app,2.54,completed
+ORD-0587,2026-09-13,C051,Sandwiches,Walk-in,15.23,completed
+ORD-0588,2026-09-13,C106,Bread,Delivery app,1.6,completed
+ORD-0589,2026-09-13,C020,Sandwiches,Delivery app,8.77,completed
+ORD-0590,2026-09-13,C080,Bread,Walk-in,2.23,completed
+ORD-0591,2026-09-13,C074,Sandwiches,Delivery app,8.12,completed
+ORD-0592,2026-09-13,C138,Pastry,Walk-in,11.81,cancelled
+ORD-0593,2026-09-13,C050,Bread,Walk-in,2.76,completed
+ORD-0594,2026-09-13,C036,Pastry,Walk-in,3.71,completed
+ORD-0595,2026-09-14,C047,Bread,Walk-in,2.44,completed
+ORD-0596,2026-09-14,C042,Pastry,Delivery app,2.81,completed
+ORD-0597,2026-09-14,C004,Cakes,Delivery app,34.05,completed
+ORD-0598,2026-09-14,C067,Pastry,Walk-in,7.29,completed
+ORD-0599,2026-09-14,C095,Pastry,Walk-in,3.36,completed
+ORD-0600,2026-09-14,C016,Pastry,Walk-in,11.05,completed
+ORD-0601,2026-09-14,C122,Sandwiches,Delivery app,14.02,completed
+ORD-0602,2026-09-14,C104,Drinks,Delivery app,8.87,completed
+ORD-0603,2026-09-15,C032,Bread,Walk-in,1.69,completed
+ORD-0604,2026-09-15,C122,Bread,Delivery app,3.53,completed
+ORD-0605,2026-09-15,C119,Pastry,Delivery app,3.54,completed
+ORD-0606,2026-09-15,C115,Bread,Walk-in,1.64,completed
+ORD-0607,2026-09-15,C090,Sandwiches,Walk-in,17.91,completed
+ORD-0608,2026-09-15,C134,Sandwiches,Walk-in,6.49,completed
+ORD-0609,2026-09-15,C045,Bread,Phone,2.91,completed
+ORD-0610,2026-09-15,C071,Bread,Walk-in,5.12,completed
+ORD-0611,2026-09-15,C110,Sandwiches,Delivery app,12.5,completed
+ORD-0612,2026-09-15,C072,Pastry,Walk-in,5.9,completed
+ORD-0613,2026-09-16,C039,Sandwiches,Walk-in,8.83,completed
+ORD-0614,2026-09-16,C042,Cakes,Walk-in,31.03,completed
+ORD-0615,2026-09-16,C130,Bread,Phone,2.04,completed
+ORD-0616,2026-09-16,C057,Sandwiches,Delivery app,7.24,completed
+ORD-0617,2026-09-16,C139,Bread,Delivery app,1.58,completed
+ORD-0618,2026-09-16,C068,Bread,Walk-in,1.15,completed
+ORD-0619,2026-09-16,C098,Pastry,Walk-in,3.3,completed
+ORD-0620,2026-09-16,C106,Pastry,Delivery app,4.68,cancelled
+ORD-0621,2026-09-16,C005,Drinks,Walk-in,3.2,completed
+ORD-0622,2026-09-16,C017,Pastry,Walk-in,2.92,completed
+ORD-0623,2026-09-17,C127,Bread,Walk-in,2.61,completed
+ORD-0624,2026-09-17,C063,Drinks,Walk-in,9.81,completed
+ORD-0625,2026-09-17,C042,Cakes,Delivery app,54.22,completed
+ORD-0626,2026-09-17,C091,Pastry,Walk-in,2.72,completed
+ORD-0627,2026-09-17,C054,Bread,Delivery app,2.85,completed
+ORD-0628,2026-09-17,C020,Drinks,Walk-in,4.97,completed
+ORD-0629,2026-09-17,C023,Sandwiches,Walk-in,13.19,completed
+ORD-0630,2026-09-17,C036,Pastry,Walk-in,4.89,completed
+ORD-0631,2026-09-17,C125,Pastry,Walk-in,5.57,completed
+ORD-0632,2026-09-17,C113,Cakes,Walk-in,26.08,completed
+ORD-0633,2026-09-17,C079,Pastry,Walk-in,2.48,completed
+ORD-0634,2026-09-18,C086,Sandwiches,Walk-in,5.23,completed
+ORD-0635,2026-09-18,C108,Bread,Walk-in,4.37,refunded
+ORD-0636,2026-09-18,C108,Bread,Walk-in,1.82,completed
+ORD-0637,2026-09-18,C087,Sandwiches,Phone,17.38,completed
+ORD-0638,2026-09-18,C044,Pastry,Walk-in,5.7,completed
+ORD-0639,2026-09-18,C087,Bread,Phone,1.4,completed
+ORD-0640,2026-09-18,C131,Bread,Walk-in,1.62,completed
+ORD-0641,2026-09-18,C004,Drinks,Walk-in,2.54,completed
+ORD-0642,2026-09-18,C132,Pastry,Phone,5.42,completed
+ORD-0643,2026-09-18,C097,Drinks,Walk-in,2.44,cancelled
+ORD-0644,2026-09-18,C122,Bread,Delivery app,2.25,completed
+ORD-0645,2026-09-18,C129,Drinks,Walk-in,8.24,completed
+ORD-0646,2026-09-18,C082,Cakes,Walk-in,22.33,completed
+ORD-0647,2026-09-19,C110,Sandwiches,Walk-in,6.83,refunded
+ORD-0648,2026-09-19,C069,Bread,Walk-in,2.32,completed
+ORD-0649,2026-09-19,C118,Bread,Walk-in,2.85,completed
+ORD-0650,2026-09-19,C036,Cakes,Delivery app,31.59,completed
+ORD-0651,2026-09-19,C118,Drinks,Delivery app,2.05,completed
+ORD-0652,2026-09-19,C063,Pastry,Delivery app,4.38,completed
+ORD-0653,2026-09-19,C121,Pastry,Walk-in,4.23,completed
+ORD-0654,2026-09-19,C130,Sandwiches,Walk-in,8.69,completed
+ORD-0655,2026-09-19,C058,Pastry,Walk-in,5.6,completed
+ORD-0656,2026-09-19,C113,Cakes,Delivery app,48.52,completed
+ORD-0657,2026-09-19,C093,Pastry,Delivery app,4.22,completed
+ORD-0658,2026-09-19,C134,Sandwiches,Delivery app,7.07,completed
+ORD-0659,2026-09-19,C069,Drinks,Phone,4.86,completed
+ORD-0660,2026-09-19,C065,Sandwiches,Walk-in,4.39,completed
+ORD-0661,2026-09-19,C109,Bread,Delivery app,1.16,completed
+ORD-0662,2026-09-19,C131,Bread,Walk-in,2.2,completed
+ORD-0663,2026-09-19,C075,Pastry,Walk-in,3.46,completed
+ORD-0664,2026-09-19,C035,Cakes,Walk-in,27.23,completed
+ORD-0665,2026-09-19,C060,Bread,Walk-in,2.86,completed
+ORD-0666,2026-09-19,C036,Pastry,Walk-in,3.68,completed
+ORD-0667,2026-09-19,C036,Sandwiches,Walk-in,5.61,completed
+ORD-0668,2026-09-19,C105,Drinks,Walk-in,3.86,completed
+ORD-0669,2026-09-19,C125,Bread,Phone,2.36,completed
+ORD-0670,2026-09-19,C028,Drinks,Phone,4.38,completed
+ORD-0671,2026-09-20,C028,Pastry,Walk-in,9.08,completed
+ORD-0672,2026-09-20,C004,Sandwiches,Delivery app,4.84,completed
+ORD-0673,2026-09-20,C066,Cakes,Walk-in,29.56,completed
+ORD-0674,2026-09-20,C119,Bread,Walk-in,1.39,completed
+ORD-0675,2026-09-20,C005,Drinks,Walk-in,5.92,completed
+ORD-0676,2026-09-20,C072,Pastry,Walk-in,2.48,completed
+ORD-0677,2026-09-20,C097,Drinks,Walk-in,6.82,completed
+ORD-0678,2026-09-20,C098,Pastry,Walk-in,5.07,completed
+ORD-0679,2026-09-20,C002,Bread,Phone,2.84,completed
+ORD-0680,2026-09-20,C008,Sandwiches,Walk-in,11.78,completed
+ORD-0681,2026-09-20,C057,Drinks,Walk-in,9.67,completed
+ORD-0682,2026-09-20,C062,Drinks,Walk-in,4.92,completed
+ORD-0683,2026-09-20,C109,Sandwiches,Walk-in,12.31,completed
+ORD-0684,2026-09-20,C001,Pastry,Phone,2.3,completed
+ORD-0685,2026-09-20,C097,Pastry,Walk-in,8.94,cancelled
+ORD-0686,2026-09-20,C097,Cakes,Phone,39.82,completed
+ORD-0687,2026-09-20,C006,Cakes,Walk-in,19.59,completed
+ORD-0688,2026-09-20,C001,Drinks,Walk-in,4.38,completed
+ORD-0689,2026-09-20,C119,Bread,Delivery app,1.09,completed
+ORD-0690,2026-09-21,C097,Bread,Walk-in,4.29,completed
+ORD-0691,2026-09-21,C107,Bread,Walk-in,1.89,completed
+ORD-0692,2026-09-21,C044,Cakes,Walk-in,15.16,completed
+ORD-0693,2026-09-21,C093,Drinks,Phone,4.62,completed
+ORD-0694,2026-09-21,C116,Bread,Walk-in,1.43,completed
+ORD-0695,2026-09-21,C121,Pastry,Walk-in,5.26,completed
+ORD-0696,2026-09-21,C028,Drinks,Walk-in,2.8,completed
+ORD-0697,2026-09-21,C055,Sandwiches,Walk-in,4.03,completed
+ORD-0698,2026-09-21,C106,Bread,Phone,2.05,completed
+ORD-0699,2026-09-21,C062,Drinks,Delivery app,8.65,completed
+ORD-0700,2026-09-21,C053,Bread,Walk-in,1.97,completed
+ORD-0701,2026-09-22,C064,Bread,Walk-in,2.77,completed
+ORD-0702,2026-09-22,C034,Pastry,Walk-in,4.49,completed
+ORD-0703,2026-09-22,C050,Bread,Walk-in,2.61,completed
+ORD-0704,2026-09-22,C040,Sandwiches,Walk-in,6.27,completed
+ORD-0705,2026-09-22,C025,Bread,Walk-in,2.11,completed
+ORD-0706,2026-09-22,C073,Pastry,Delivery app,5.18,cancelled
+ORD-0707,2026-09-23,C068,Sandwiches,Delivery app,5.22,completed
+ORD-0708,2026-09-23,C021,Sandwiches,Walk-in,11.97,completed
+ORD-0709,2026-09-23,C137,Drinks,Walk-in,4.65,cancelled
+ORD-0710,2026-09-23,C012,Bread,Walk-in,1.26,completed
+ORD-0711,2026-09-23,C101,Pastry,Delivery app,3.57,completed
+ORD-0712,2026-09-23,C009,Drinks,Walk-in,4.2,cancelled
+ORD-0713,2026-09-24,C101,Bread,Walk-in,1.14,completed
+ORD-0714,2026-09-24,C036,Drinks,Delivery app,2.7,cancelled
+ORD-0715,2026-09-24,C069,Bread,Walk-in,1.11,completed
+ORD-0716,2026-09-24,C030,Sandwiches,Delivery app,12.24,completed
+ORD-0717,2026-09-24,C104,Bread,Walk-in,2.76,completed
+ORD-0718,2026-09-24,C124,Pastry,Walk-in,3.89,completed
+ORD-0719,2026-09-24,C038,Bread,Walk-in,2.02,cancelled
+ORD-0720,2026-09-24,C116,Pastry,Walk-in,7.54,cancelled
+ORD-0721,2026-09-24,C021,Cakes,Phone,17.43,completed
+ORD-0722,2026-09-24,C048,Sandwiches,Phone,16.57,completed
+ORD-0723,2026-09-24,C132,Drinks,Walk-in,9.94,completed
+ORD-0724,2026-09-24,C128,Bread,Walk-in,1.41,completed
+ORD-0725,2026-09-25,C003,Sandwiches,Walk-in,4.77,completed
+ORD-0726,2026-09-25,C073,Bread,Walk-in,4.74,completed
+ORD-0727,2026-09-25,C026,Pastry,Delivery app,4.57,completed
+ORD-0728,2026-09-25,C062,Pastry,Walk-in,4.73,completed
+ORD-0729,2026-09-25,C110,Bread,Walk-in,1.74,refunded
+ORD-0730,2026-09-25,C095,Pastry,Delivery app,4.63,completed
+ORD-0731,2026-09-25,C009,Drinks,Walk-in,2.13,completed
+ORD-0732,2026-09-25,C134,Bread,Delivery app,5.84,completed
+ORD-0733,2026-09-25,C078,Sandwiches,Walk-in,8.48,completed
+ORD-0734,2026-09-25,C044,Sandwiches,Walk-in,4.85,completed
+ORD-0735,2026-09-25,C053,Bread,Delivery app,1.51,completed
+ORD-0736,2026-09-25,C067,Pastry,Walk-in,5.29,completed
+ORD-0737,2026-09-25,C003,Sandwiches,Walk-in,8.93,completed
+ORD-0738,2026-09-25,C043,Pastry,Delivery app,5.71,completed
+ORD-0739,2026-09-25,C058,Bread,Walk-in,3.08,completed
+ORD-0740,2026-09-25,C076,Bread,Walk-in,1.5,completed
+ORD-0741,2026-09-26,C139,Bread,Walk-in,2.78,completed
+ORD-0742,2026-09-26,C046,Cakes,Walk-in,12.91,completed
+ORD-0743,2026-09-26,C088,Cakes,Walk-in,30.63,completed
+ORD-0744,2026-09-26,C080,Bread,Walk-in,2.4,completed
+ORD-0745,2026-09-26,C036,Sandwiches,Delivery app,14.13,completed
+ORD-0746,2026-09-26,C097,Drinks,Delivery app,4.04,completed
+ORD-0747,2026-09-26,C049,Cakes,Walk-in,24.06,completed
+ORD-0748,2026-09-26,C092,Drinks,Delivery app,3.39,refunded
+ORD-0749,2026-09-26,C083,Bread,Walk-in,2.91,completed
+ORD-0750,2026-09-27,C052,Pastry,Delivery app,2.86,completed
+ORD-0751,2026-09-27,C137,Pastry,Walk-in,7.24,cancelled
+ORD-0752,2026-09-27,C109,Bread,Delivery app,1.71,completed
+ORD-0753,2026-09-27,C100,Pastry,Walk-in,5.86,completed
+ORD-0754,2026-09-27,C118,Drinks,Delivery app,2.44,completed
+ORD-0755,2026-09-27,C022,Sandwiches,Walk-in,9.85,completed
+ORD-0756,2026-09-27,C122,Drinks,Phone,6.77,completed
+ORD-0757,2026-09-27,C022,Cakes,Walk-in,15.12,completed
+ORD-0758,2026-09-27,C004,Cakes,Delivery app,30.7,completed
+ORD-0759,2026-09-27,C016,Bread,Walk-in,2.54,completed
+ORD-0760,2026-09-27,C056,Cakes,Walk-in,25.92,completed
+ORD-0761,2026-09-27,C031,Cakes,Walk-in,25.26,completed
+ORD-0762,2026-09-27,C126,Pastry,Walk-in,4.17,completed
+ORD-0763,2026-09-27,C094,Cakes,Walk-in,28.36,completed
+ORD-0764,2026-09-27,C039,Bread,Delivery app,2.94,completed
+ORD-0765,2026-09-27,C002,Pastry,Phone,5.24,completed
+ORD-0766,2026-09-27,C033,Pastry,Delivery app,8.9,completed
+ORD-0767,2026-09-28,C136,Pastry,Delivery app,2.41,refunded
+ORD-0768,2026-09-28,C098,Bread,Walk-in,4.37,completed
+ORD-0769,2026-09-28,C109,Sandwiches,Walk-in,8.81,completed
+ORD-0770,2026-09-28,C139,Sandwiches,Walk-in,4.83,completed
+ORD-0771,2026-09-28,C025,Drinks,Delivery app,4.34,completed
+ORD-0772,2026-09-28,C071,Bread,Delivery app,1.8,completed
+ORD-0773,2026-09-28,C103,Drinks,Walk-in,2.5,completed
+ORD-0774,2026-09-28,C128,Pastry,Delivery app,8.27,completed
+ORD-0775,2026-09-28,C038,Drinks,Delivery app,3.73,cancelled
+ORD-0776,2026-09-29,C049,Pastry,Walk-in,9.02,completed
+ORD-0777,2026-09-29,C005,Sandwiches,Delivery app,12.21,completed
+ORD-0778,2026-09-29,C009,Drinks,Walk-in,8.61,completed
+ORD-0779,2026-09-29,C020,Bread,Delivery app,2.59,completed
+ORD-0780,2026-09-29,C134,Pastry,Delivery app,3.33,completed
+ORD-0781,2026-09-29,C114,Bread,Walk-in,2.14,completed
+ORD-0782,2026-09-29,C126,Pastry,Walk-in,10.7,completed
+ORD-0783,2026-09-29,C101,Drinks,Delivery app,2.26,completed
+ORD-0784,2026-09-29,C124,Cakes,Walk-in,62.34,completed
+ORD-0785,2026-09-30,C044,Bread,Phone,1.03,completed
+ORD-0786,2026-09-30,C022,Pastry,Walk-in,3.24,completed
+ORD-0787,2026-09-30,C049,Bread,Walk-in,2.88,completed
+ORD-0788,2026-09-30,C008,Pastry,Walk-in,5.76,completed
+ORD-0789,2026-09-30,C037,Pastry,Delivery app,8.29,completed
+ORD-0790,2026-09-30,C069,Sandwiches,Walk-in,16.25,completed
+ORD-0791,2026-09-30,C041,Sandwiches,Walk-in,4.58,completed
+ORD-0792,2026-09-30,C054,Pastry,Walk-in,3.09,completed
+ORD-0793,2026-09-30,C080,Pastry,Walk-in,10.09,completed
+ORD-0794,2026-09-30,C006,Bread,Delivery app,2.52,completed
+ORD-0795,2026-09-30,C093,Pastry,Walk-in,4.8,cancelled
+ORD-0796,2026-10-01,C079,Pastry,Delivery app,4.91,completed
+ORD-0797,2026-10-01,C137,Bread,Walk-in,3.14,completed
+ORD-0798,2026-10-01,C005,Drinks,Delivery app,6.64,completed
+ORD-0799,2026-10-01,C125,Bread,Delivery app,2.4,completed
+ORD-0800,2026-10-01,C110,Drinks,Phone,4.18,completed
+ORD-0801,2026-10-01,C042,Drinks,Delivery app,7.4,completed
+ORD-0802,2026-10-01,C047,Cakes,Walk-in,17.41,completed
+ORD-0803,2026-10-01,C110,Pastry,Walk-in,2.04,cancelled
+ORD-0804,2026-10-01,C053,Drinks,Walk-in,2.7,completed
+ORD-0805,2026-10-01,C037,Bread,Walk-in,2.01,completed
+ORD-0806,2026-10-01,C014,Bread,Delivery app,2.12,completed
+ORD-0807,2026-10-01,C099,Pastry,Walk-in,8.03,completed
+ORD-0808,2026-10-01,C007,Pastry,Delivery app,6.58,completed
+ORD-0809,2026-10-02,C021,Pastry,Delivery app,2.14,completed
+ORD-0810,2026-10-02,C128,Drinks,Delivery app,9.63,completed
+ORD-0811,2026-10-02,C052,Bread,Delivery app,1.27,completed
+ORD-0812,2026-10-02,C130,Pastry,Phone,2.58,completed
+ORD-0813,2026-10-02,C092,Pastry,Delivery app,3.97,completed
+ORD-0814,2026-10-02,C008,Pastry,Delivery app,3.25,completed
+ORD-0815,2026-10-02,C052,Pastry,Walk-in,4.04,completed
+ORD-0816,2026-10-02,C081,Pastry,Walk-in,2.66,completed
+ORD-0817,2026-10-02,C134,Drinks,Walk-in,7.29,completed
+ORD-0818,2026-10-02,C073,Pastry,Delivery app,3.69,completed
+ORD-0819,2026-10-02,C066,Pastry,Walk-in,10.37,completed
+ORD-0820,2026-10-02,C132,Pastry,Delivery app,8.2,completed
+ORD-0821,2026-10-02,C132,Drinks,Phone,4.3,completed
+ORD-0822,2026-10-03,C087,Pastry,Delivery app,4.59,completed
+ORD-0823,2026-10-03,C027,Bread,Walk-in,1.69,completed
+ORD-0824,2026-10-03,C088,Sandwiches,Walk-in,6.38,completed
+ORD-0825,2026-10-03,C055,Pastry,Walk-in,3.75,completed
+ORD-0826,2026-10-03,C103,Sandwiches,Delivery app,8.6,completed
+ORD-0827,2026-10-03,C015,Sandwiches,Walk-in,14.99,refunded
+ORD-0828,2026-10-03,C059,Bread,Delivery app,1.25,completed
+ORD-0829,2026-10-03,C045,Bread,Phone,5.13,completed
+ORD-0830,2026-10-03,C001,Sandwiches,Delivery app,7.83,completed
+ORD-0831,2026-10-03,C030,Drinks,Walk-in,9.34,completed
+ORD-0832,2026-10-03,C010,Bread,Walk-in,1.6,completed
+ORD-0833,2026-10-03,C042,Bread,Phone,3.35,completed
+ORD-0834,2026-10-03,C014,Bread,Walk-in,5.4,completed
+ORD-0835,2026-10-03,C027,Sandwiches,Delivery app,14.65,completed
+ORD-0836,2026-10-03,C130,Bread,Walk-in,1.76,completed
+ORD-0837,2026-10-03,C025,Drinks,Walk-in,4.69,completed
+ORD-0838,2026-10-03,C031,Bread,Walk-in,3.35,completed
+ORD-0839,2026-10-03,C041,Pastry,Phone,4.85,completed
+ORD-0840,2026-10-03,C063,Cakes,Delivery app,27.23,completed
+ORD-0841,2026-10-03,C117,Drinks,Delivery app,9.87,cancelled
+ORD-0842,2026-10-04,C014,Sandwiches,Walk-in,7.2,completed
+ORD-0843,2026-10-04,C036,Bread,Walk-in,3.32,completed
+ORD-0844,2026-10-04,C050,Bread,Delivery app,2.45,completed
+ORD-0845,2026-10-04,C125,Drinks,Phone,3.97,completed
+ORD-0846,2026-10-04,C044,Pastry,Walk-in,4.54,completed
+ORD-0847,2026-10-04,C130,Bread,Phone,2.53,completed
+ORD-0848,2026-10-04,C040,Sandwiches,Delivery app,13.59,completed
+ORD-0849,2026-10-04,C075,Drinks,Phone,3.25,refunded
+ORD-0850,2026-10-04,C113,Drinks,Delivery app,6.24,completed
+ORD-0851,2026-10-04,C114,Sandwiches,Delivery app,8.53,completed
+ORD-0852,2026-10-04,C132,Cakes,Walk-in,33.18,cancelled
+ORD-0853,2026-10-04,C114,Bread,Delivery app,3.2,completed
+ORD-0854,2026-10-04,C099,Drinks,Delivery app,4.0,completed
+ORD-0855,2026-10-04,C070,Bread,Phone,5.09,completed
+ORD-0856,2026-10-04,C035,Bread,Delivery app,3.09,completed
+ORD-0857,2026-10-04,C090,Cakes,Delivery app,33.84,completed
+ORD-0858,2026-10-04,C124,Bread,Phone,1.15,completed
+ORD-0859,2026-10-04,C118,Bread,Delivery app,2.2,completed
+ORD-0860,2026-10-04,C004,Drinks,Walk-in,8.36,completed
+ORD-0861,2026-10-04,C068,Bread,Delivery app,1.32,completed
+ORD-0862,2026-10-04,C071,Pastry,Walk-in,4.36,completed
+ORD-0863,2026-10-04,C061,Pastry,Delivery app,5.62,completed
+ORD-0864,2026-10-05,C092,Pastry,Walk-in,11.38,completed
+ORD-0865,2026-10-05,C026,Cakes,Walk-in,16.57,completed
+ORD-0866,2026-10-05,C042,Sandwiches,Walk-in,5.74,completed
+ORD-0867,2026-10-05,C075,Pastry,Walk-in,3.05,completed
+ORD-0868,2026-10-05,C055,Pastry,Delivery app,8.82,completed
+ORD-0869,2026-10-05,C049,Bread,Walk-in,1.68,completed
+ORD-0870,2026-10-05,C106,Pastry,Walk-in,3.64,completed
+ORD-0871,2026-10-06,C060,Drinks,Delivery app,4.26,completed
+ORD-0872,2026-10-06,C120,Pastry,Delivery app,2.08,completed
+ORD-0873,2026-10-06,C041,Pastry,Walk-in,4.39,completed
+ORD-0874,2026-10-06,C014,Bread,Phone,5.01,completed
+ORD-0875,2026-10-06,C105,Drinks,Delivery app,7.87,completed
+ORD-0876,2026-10-06,C089,Sandwiches,Delivery app,8.18,completed
+ORD-0877,2026-10-06,C098,Pastry,Delivery app,8.77,completed
+ORD-0878,2026-10-06,C139,Bread,Phone,1.34,cancelled
+ORD-0879,2026-10-06,C101,Pastry,Walk-in,6.64,completed
+ORD-0880,2026-10-07,C042,Bread,Delivery app,3.06,completed
+ORD-0881,2026-10-07,C036,Bread,Delivery app,2.16,completed
+ORD-0882,2026-10-07,C025,Sandwiches,Walk-in,9.11,completed
+ORD-0883,2026-10-07,C039,Drinks,Walk-in,3.73,completed
+ORD-0884,2026-10-07,C036,Drinks,Walk-in,9.58,refunded
+ORD-0885,2026-10-07,C129,Bread,Delivery app,2.44,completed
+ORD-0886,2026-10-07,C081,Drinks,Delivery app,2.48,completed
+ORD-0887,2026-10-07,C043,Pastry,Walk-in,4.46,completed
+ORD-0888,2026-10-07,C098,Bread,Walk-in,1.52,completed
+ORD-0889,2026-10-08,C070,Drinks,Walk-in,3.98,completed
+ORD-0890,2026-10-08,C014,Bread,Walk-in,1.18,completed
+ORD-0891,2026-10-08,C026,Bread,Delivery app,2.7,cancelled
+ORD-0892,2026-10-08,C019,Sandwiches,Walk-in,16.98,completed
+ORD-0893,2026-10-08,C122,Bread,Walk-in,1.64,completed
+ORD-0894,2026-10-08,C114,Drinks,Walk-in,4.53,completed
+ORD-0895,2026-10-08,C040,Pastry,Walk-in,3.29,completed
+ORD-0896,2026-10-08,C086,Cakes,Delivery app,64.76,completed
+ORD-0897,2026-10-08,C020,Drinks,Walk-in,3.82,completed
+ORD-0898,2026-10-08,C046,Bread,Delivery app,1.42,completed
+ORD-0899,2026-10-08,C129,Bread,Walk-in,1.39,completed
+ORD-0900,2026-10-08,C047,Bread,Walk-in,4.72,completed
+ORD-0901,2026-10-09,C026,Drinks,Walk-in,4.05,completed
+ORD-0902,2026-10-09,C085,Drinks,Walk-in,5.51,completed
+ORD-0903,2026-10-09,C080,Pastry,Delivery app,4.54,completed
+ORD-0904,2026-10-09,C020,Sandwiches,Delivery app,14.94,completed
+ORD-0905,2026-10-09,C065,Pastry,Walk-in,2.77,completed
+ORD-0906,2026-10-09,C069,Bread,Walk-in,1.48,completed
+ORD-0907,2026-10-09,C074,Drinks,Walk-in,9.76,completed
+ORD-0908,2026-10-09,C038,Cakes,Delivery app,56.78,completed
+ORD-0909,2026-10-09,C110,Pastry,Delivery app,5.79,completed
+ORD-0910,2026-10-09,C104,Bread,Delivery app,3.31,completed
+ORD-0911,2026-10-09,C113,Pastry,Walk-in,2.15,cancelled
+ORD-0912,2026-10-09,C090,Bread,Walk-in,1.11,completed
+ORD-0913,2026-10-10,C031,Sandwiches,Delivery app,6.71,completed
+ORD-0914,2026-10-10,C011,Bread,Delivery app,4.36,completed
+ORD-0915,2026-10-10,C068,Bread,Delivery app,2.83,completed
+ORD-0916,2026-10-10,C046,Pastry,Walk-in,3.76,completed
+ORD-0917,2026-10-10,C115,Sandwiches,Walk-in,8.22,completed
+ORD-0918,2026-10-10,C047,Sandwiches,Walk-in,7.23,completed
+ORD-0919,2026-10-10,C127,Pastry,Walk-in,4.77,completed
+ORD-0920,2026-10-10,C136,Drinks,Walk-in,7.78,completed
+ORD-0921,2026-10-10,C114,Pastry,Walk-in,6.83,completed
+ORD-0922,2026-10-10,C047,Sandwiches,Delivery app,5.17,completed
+ORD-0923,2026-10-10,C093,Drinks,Walk-in,6.07,completed
+ORD-0924,2026-10-10,C108,Sandwiches,Walk-in,8.04,completed
+ORD-0925,2026-10-10,C037,Drinks,Walk-in,3.11,cancelled
+ORD-0926,2026-10-10,C064,Drinks,Phone,9.94,completed
+ORD-0927,2026-10-10,C044,Bread,Delivery app,2.27,completed
+ORD-0928,2026-10-10,C014,Sandwiches,Walk-in,13.31,cancelled
+ORD-0929,2026-10-10,C095,Pastry,Delivery app,3.12,completed
+ORD-0930,2026-10-10,C011,Pastry,Walk-in,4.52,completed
+ORD-0931,2026-10-11,C072,Pastry,Walk-in,8.21,completed
+ORD-0932,2026-10-11,C133,Sandwiches,Walk-in,6.35,completed
+ORD-0933,2026-10-11,C050,Pastry,Walk-in,2.73,cancelled
+ORD-0934,2026-10-11,C085,Drinks,Walk-in,4.68,completed
+ORD-0935,2026-10-11,C035,Sandwiches,Walk-in,4.23,completed
+ORD-0936,2026-10-11,C001,Bread,Delivery app,5.65,completed
+ORD-0937,2026-10-11,C029,Pastry,Delivery app,3.18,completed
+ORD-0938,2026-10-11,C076,Bread,Walk-in,1.77,cancelled
+ORD-0939,2026-10-11,C136,Sandwiches,Walk-in,6.43,completed
+ORD-0940,2026-10-11,C039,Sandwiches,Walk-in,14.67,completed
+ORD-0941,2026-10-11,C075,Bread,Walk-in,1.01,completed
+ORD-0942,2026-10-11,C134,Bread,Delivery app,2.13,completed
+ORD-0943,2026-10-11,C084,Bread,Delivery app,1.59,completed
+ORD-0944,2026-10-11,C035,Cakes,Delivery app,20.02,completed
+ORD-0945,2026-10-11,C113,Pastry,Walk-in,4.94,completed
+ORD-0946,2026-10-11,C054,Bread,Walk-in,2.68,completed
+ORD-0947,2026-10-11,C025,Pastry,Walk-in,4.72,completed
+ORD-0948,2026-10-11,C113,Cakes,Walk-in,31.22,completed
+ORD-0949,2026-10-11,C045,Bread,Delivery app,2.66,completed
+ORD-0950,2026-10-11,C061,Pastry,Delivery app,8.36,completed
+ORD-0951,2026-10-12,C092,Drinks,Walk-in,5.84,cancelled
+ORD-0952,2026-10-12,C076,Pastry,Phone,10.26,completed
+ORD-0953,2026-10-12,C126,Cakes,Delivery app,46.72,completed
+ORD-0954,2026-10-12,C022,Bread,Walk-in,1.54,completed
+ORD-0955,2026-10-12,C065,Drinks,Delivery app,4.02,completed
+ORD-0956,2026-10-12,C086,Cakes,Walk-in,67.46,completed
+ORD-0957,2026-10-12,C079,Sandwiches,Delivery app,6.69,completed
+ORD-0958,2026-10-12,C027,Bread,Walk-in,4.24,cancelled
+ORD-0959,2026-10-13,C022,Bread,Walk-in,1.92,completed
+ORD-0960,2026-10-13,C013,Sandwiches,Walk-in,4.59,cancelled
+ORD-0961,2026-10-13,C041,Bread,Delivery app,1.29,completed
+ORD-0962,2026-10-13,C111,Pastry,Walk-in,5.42,completed
+ORD-0963,2026-10-13,C134,Sandwiches,Delivery app,7.52,completed
+ORD-0964,2026-10-13,C085,Bread,Delivery app,1.18,completed
+ORD-0965,2026-10-13,C090,Pastry,Delivery app,5.25,completed
+ORD-0966,2026-10-13,C064,Pastry,Delivery app,5.12,completed
+ORD-0967,2026-10-13,C076,Pastry,Delivery app,5.36,completed
+ORD-0968,2026-10-13,C003,Sandwiches,Delivery app,6.72,completed
+ORD-0969,2026-10-13,C100,Bread,Delivery app,2.28,completed
+ORD-0970,2026-10-14,C138,Bread,Walk-in,2.26,completed
+ORD-0971,2026-10-14,C127,Bread,Walk-in,1.78,cancelled
+ORD-0972,2026-10-14,C079,Pastry,Delivery app,4.19,completed
+ORD-0973,2026-10-14,C093,Drinks,Walk-in,3.51,completed
+ORD-0974,2026-10-14,C108,Pastry,Walk-in,3.59,completed
+ORD-0975,2026-10-14,C128,Bread,Walk-in,2.23,completed
+ORD-0976,2026-10-14,C068,Sandwiches,Walk-in,7.28,completed
+ORD-0977,2026-10-14,C107,Pastry,Phone,9.93,completed
+ORD-0978,2026-10-14,C015,Bread,Delivery app,3.46,completed
+ORD-0979,2026-10-15,C052,Pastry,Walk-in,4.55,completed
+ORD-0980,2026-10-15,C016,Pastry,Walk-in,3.61,completed
+ORD-0981,2026-10-15,C073,Pastry,Delivery app,3.04,completed
+ORD-0982,2026-10-15,C086,Bread,Walk-in,2.46,completed
+ORD-0983,2026-10-15,C050,Cakes,Walk-in,32.59,completed
+ORD-0984,2026-10-15,C132,Pastry,Delivery app,2.37,completed
+ORD-0985,2026-10-15,C121,Bread,Walk-in,1.49,completed
+ORD-0986,2026-10-15,C093,Drinks,Delivery app,4.84,completed
+ORD-0987,2026-10-15,C022,Bread,Phone,1.44,completed
+ORD-0988,2026-10-15,C039,Cakes,Delivery app,17.06,completed
+ORD-0989,2026-10-15,C030,Pastry,Walk-in,2.73,completed
+ORD-0990,2026-10-15,C002,Pastry,Walk-in,10.23,completed
+ORD-0991,2026-10-16,C135,Cakes,Delivery app,31.82,completed
+ORD-0992,2026-10-16,C103,Bread,Delivery app,5.44,cancelled
+ORD-0993,2026-10-16,C039,Drinks,Delivery app,4.15,completed
+ORD-0994,2026-10-16,C030,Sandwiches,Phone,12.51,completed
+ORD-0995,2026-10-16,C127,Bread,Walk-in,2.95,completed
+ORD-0996,2026-10-16,C044,Drinks,Delivery app,2.59,completed
+ORD-0997,2026-10-16,C041,Bread,Walk-in,1.75,completed
+ORD-0998,2026-10-16,C025,Bread,Phone,2.59,completed
+ORD-0999,2026-10-16,C075,Bread,Walk-in,2.7,completed
+ORD-1000,2026-10-16,C052,Bread,Phone,3.95,completed
+ORD-1001,2026-10-16,C094,Pastry,Walk-in,11.59,cancelled
+ORD-1002,2026-10-16,C040,Bread,Walk-in,2.01,completed
+ORD-1003,2026-10-16,C057,Pastry,Walk-in,2.17,completed
+ORD-1004,2026-10-16,C013,Drinks,Phone,3.88,completed
+ORD-1005,2026-10-16,C131,Pastry,Walk-in,6.65,completed
+ORD-1006,2026-10-17,C085,Bread,Delivery app,1.37,completed
+ORD-1007,2026-10-17,C090,Bread,Delivery app,2.62,completed
+ORD-1008,2026-10-17,C122,Sandwiches,Phone,5.27,completed
+ORD-1009,2026-10-17,C089,Pastry,Walk-in,5.06,completed
+ORD-1010,2026-10-17,C029,Sandwiches,Delivery app,4.29,completed
+ORD-1011,2026-10-17,C107,Pastry,Walk-in,11.87,completed
+ORD-1012,2026-10-17,C004,Bread,Walk-in,1.85,completed
+ORD-1013,2026-10-17,C136,Drinks,Walk-in,8.21,completed
+ORD-1014,2026-10-17,C092,Cakes,Phone,29.68,completed
+ORD-1015,2026-10-17,C118,Sandwiches,Walk-in,8.7,completed
+ORD-1016,2026-10-17,C046,Drinks,Delivery app,2.76,completed
+ORD-1017,2026-10-17,C048,Bread,Walk-in,2.43,completed
+ORD-1018,2026-10-17,C114,Cakes,Delivery app,55.83,completed
+ORD-1019,2026-10-17,C029,Pastry,Walk-in,5.37,completed
+ORD-1020,2026-10-17,C068,Pastry,Phone,5.53,completed
+ORD-1021,2026-10-17,C012,Bread,Walk-in,2.42,completed
+ORD-1022,2026-10-17,C062,Bread,Walk-in,2.05,completed
+ORD-1023,2026-10-17,C021,Pastry,Delivery app,2.23,completed
+ORD-1024,2026-10-17,C048,Drinks,Walk-in,7.38,completed
+ORD-1025,2026-10-18,C113,Sandwiches,Walk-in,5.27,cancelled
+ORD-1026,2026-10-18,C134,Bread,Walk-in,4.96,completed
+ORD-1027,2026-10-18,C039,Bread,Walk-in,5.25,completed
+ORD-1028,2026-10-18,C108,Bread,Delivery app,2.93,completed
+ORD-1029,2026-10-18,C074,Sandwiches,Delivery app,7.01,cancelled
+ORD-1030,2026-10-18,C012,Bread,Walk-in,3.55,completed
+ORD-1031,2026-10-18,C080,Sandwiches,Walk-in,7.08,completed
+ORD-1032,2026-10-18,C013,Pastry,Walk-in,7.78,completed
+ORD-1033,2026-10-18,C015,Drinks,Walk-in,3.73,completed
+ORD-1034,2026-10-18,C027,Sandwiches,Delivery app,5.54,completed
+ORD-1035,2026-10-18,C111,Pastry,Walk-in,2.88,completed
+ORD-1036,2026-10-18,C121,Drinks,Phone,8.0,completed
+ORD-1037,2026-10-18,C010,Sandwiches,Delivery app,4.68,cancelled
+ORD-1038,2026-10-18,C137,Drinks,Walk-in,2.49,completed
+ORD-1039,2026-10-18,C093,Sandwiches,Walk-in,5.68,completed
+ORD-1040,2026-10-18,C018,Pastry,Walk-in,4.64,completed
+ORD-1041,2026-10-18,C041,Bread,Walk-in,2.19,completed
+ORD-1042,2026-10-18,C121,Sandwiches,Walk-in,10.47,completed
+ORD-1043,2026-10-18,C020,Pastry,Walk-in,5.04,completed
+ORD-1044,2026-10-18,C102,Cakes,Walk-in,29.72,completed
+ORD-1045,2026-10-18,C095,Bread,Walk-in,1.42,completed
+ORD-1046,2026-10-18,C023,Pastry,Walk-in,5.5,completed
+ORD-1047,2026-10-18,C019,Bread,Delivery app,4.01,completed
+ORD-1048,2026-10-18,C072,Pastry,Phone,5.4,completed
+ORD-1049,2026-10-19,C034,Drinks,Walk-in,3.74,completed
+ORD-1050,2026-10-19,C121,Cakes,Walk-in,23.26,completed
+ORD-1051,2026-10-19,C018,Pastry,Delivery app,4.11,completed
+ORD-1052,2026-10-19,C014,Pastry,Walk-in,5.12,completed
+ORD-1053,2026-10-19,C131,Pastry,Walk-in,2.59,completed
+ORD-1054,2026-10-19,C053,Sandwiches,Walk-in,4.95,refunded
+ORD-1055,2026-10-19,C008,Cakes,Walk-in,22.83,completed
+ORD-1056,2026-10-19,C061,Drinks,Delivery app,4.49,completed
+ORD-1057,2026-10-19,C055,Pastry,Walk-in,5.46,completed
+ORD-1058,2026-10-20,C080,Bread,Phone,2.85,completed
+ORD-1059,2026-10-20,C075,Bread,Walk-in,2.91,completed
+ORD-1060,2026-10-20,C020,Cakes,Delivery app,44.99,completed
+ORD-1061,2026-10-20,C024,Bread,Delivery app,1.3,completed
+ORD-1062,2026-10-20,C101,Bread,Delivery app,4.89,completed
+ORD-1063,2026-10-20,C059,Bread,Phone,1.54,completed
+ORD-1064,2026-10-20,C102,Cakes,Phone,12.31,completed
+ORD-1065,2026-10-20,C113,Drinks,Walk-in,4.4,completed
+ORD-1066,2026-10-20,C026,Pastry,Delivery app,2.82,completed
+ORD-1067,2026-10-20,C026,Pastry,Walk-in,5.77,cancelled
+ORD-1068,2026-10-20,C062,Pastry,Phone,6.15,completed
+ORD-1069,2026-10-21,C079,Bread,Walk-in,3.71,completed
+ORD-1070,2026-10-21,C090,Pastry,Walk-in,7.98,completed
+ORD-1071,2026-10-21,C049,Pastry,Walk-in,10.32,completed
+ORD-1072,2026-10-21,C085,Drinks,Delivery app,4.63,completed
+ORD-1073,2026-10-21,C039,Bread,Walk-in,5.98,completed
+ORD-1074,2026-10-21,C021,Cakes,Walk-in,28.09,completed
+ORD-1075,2026-10-21,C059,Bread,Walk-in,1.35,completed
+ORD-1076,2026-10-21,C051,Pastry,Phone,5.48,completed
+ORD-1077,2026-10-21,C106,Pastry,Delivery app,2.43,completed
+ORD-1078,2026-10-21,C042,Cakes,Phone,27.07,completed
+ORD-1079,2026-10-21,C061,Pastry,Walk-in,2.02,completed
+ORD-1080,2026-10-21,C068,Pastry,Delivery app,3.62,completed
+ORD-1081,2026-10-21,C071,Bread,Delivery app,2.01,cancelled
+ORD-1082,2026-10-21,C008,Bread,Phone,4.96,completed
+ORD-1083,2026-10-22,C002,Sandwiches,Walk-in,11.97,completed
+ORD-1084,2026-10-22,C003,Sandwiches,Delivery app,6.87,cancelled
+ORD-1085,2026-10-22,C012,Bread,Walk-in,1.76,completed
+ORD-1086,2026-10-22,C004,Pastry,Delivery app,3.57,completed
+ORD-1087,2026-10-22,C125,Bread,Delivery app,1.06,completed
+ORD-1088,2026-10-22,C085,Pastry,Delivery app,3.72,completed
+ORD-1089,2026-10-22,C100,Bread,Delivery app,4.24,completed
+ORD-1090,2026-10-22,C035,Pastry,Walk-in,5.92,completed
+ORD-1091,2026-10-22,C007,Drinks,Walk-in,6.72,completed
+ORD-1092,2026-10-22,C020,Bread,Delivery app,2.1,completed
+ORD-1093,2026-10-22,C124,Sandwiches,Walk-in,17.5,completed
+ORD-1094,2026-10-22,C124,Pastry,Walk-in,4.64,completed
+ORD-1095,2026-10-22,C126,Pastry,Walk-in,9.83,completed
+ORD-1096,2026-10-22,C127,Pastry,Delivery app,6.78,completed
+ORD-1097,2026-10-22,C042,Sandwiches,Walk-in,15.77,cancelled
+ORD-1098,2026-10-23,C003,Pastry,Walk-in,6.55,completed
+ORD-1099,2026-10-23,C003,Pastry,Delivery app,5.43,completed
+ORD-1100,2026-10-23,C065,Sandwiches,Walk-in,4.98,completed
+ORD-1101,2026-10-23,C009,Sandwiches,Walk-in,11.89,completed
+ORD-1102,2026-10-23,C077,Sandwiches,Delivery app,15.55,completed
+ORD-1103,2026-10-23,C070,Sandwiches,Walk-in,6.6,completed
+ORD-1104,2026-10-23,C106,Sandwiches,Delivery app,8.28,completed
+ORD-1105,2026-10-23,C083,Pastry,Walk-in,3.42,completed
+ORD-1106,2026-10-23,C075,Sandwiches,Delivery app,8.35,cancelled
+ORD-1107,2026-10-23,C001,Pastry,Walk-in,4.5,completed
+ORD-1108,2026-10-23,C038,Sandwiches,Walk-in,6.88,completed
+ORD-1109,2026-10-23,C049,Pastry,Walk-in,8.42,completed
+ORD-1110,2026-10-23,C049,Pastry,Delivery app,2.4,refunded
+ORD-1111,2026-10-23,C103,Bread,Phone,2.77,completed
+ORD-1112,2026-10-23,C001,Sandwiches,Delivery app,4.84,completed
+ORD-1113,2026-10-23,C032,Bread,Delivery app,1.51,completed
+ORD-1114,2026-10-23,C004,Pastry,Delivery app,3.5,cancelled
+ORD-1115,2026-10-23,C009,Pastry,Delivery app,2.85,cancelled
+ORD-1116,2026-10-23,C125,Cakes,Delivery app,49.5,completed
+ORD-1117,2026-10-24,C040,Pastry,Delivery app,9.38,completed
+ORD-1118,2026-10-24,C100,Bread,Walk-in,5.86,completed
+ORD-1119,2026-10-24,C006,Pastry,Delivery app,10.16,refunded
+ORD-1120,2026-10-24,C036,Sandwiches,Walk-in,5.18,completed
+ORD-1121,2026-10-24,C102,Bread,Phone,1.23,completed
+ORD-1122,2026-10-24,C038,Cakes,Walk-in,25.72,completed
+ORD-1123,2026-10-24,C050,Sandwiches,Delivery app,8.93,completed
+ORD-1124,2026-10-24,C039,Bread,Delivery app,2.45,completed
+ORD-1125,2026-10-24,C100,Drinks,Walk-in,3.94,completed
+ORD-1126,2026-10-24,C058,Drinks,Walk-in,4.69,completed
+ORD-1127,2026-10-24,C071,Bread,Walk-in,2.34,completed
+ORD-1128,2026-10-24,C116,Sandwiches,Walk-in,4.19,completed
+ORD-1129,2026-10-24,C139,Cakes,Walk-in,25.52,completed
+ORD-1130,2026-10-24,C011,Bread,Delivery app,1.39,completed
+ORD-1131,2026-10-24,C001,Pastry,Delivery app,2.52,completed
+ORD-1132,2026-10-24,C041,Bread,Delivery app,2.64,completed
+ORD-1133,2026-10-24,C132,Bread,Delivery app,1.28,completed
+ORD-1134,2026-10-24,C093,Drinks,Walk-in,4.82,completed
+ORD-1135,2026-10-24,C097,Bread,Delivery app,2.62,completed
+ORD-1136,2026-10-24,C134,Bread,Walk-in,1.36,completed
+ORD-1137,2026-10-24,C027,Cakes,Walk-in,33.47,completed
+ORD-1138,2026-10-25,C004,Pastry,Walk-in,5.47,completed
+ORD-1139,2026-10-25,C065,Bread,Delivery app,1.21,completed
+ORD-1140,2026-10-25,C067,Drinks,Delivery app,2.49,completed
+ORD-1141,2026-10-25,C110,Pastry,Delivery app,4.04,completed
+ORD-1142,2026-10-25,C136,Bread,Delivery app,5.18,completed
+ORD-1143,2026-10-25,C088,Bread,Walk-in,2.68,completed
+ORD-1144,2026-10-25,C100,Bread,Phone,1.02,completed
+ORD-1145,2026-10-25,C130,Bread,Delivery app,1.17,completed
+ORD-1146,2026-10-25,C043,Bread,Delivery app,5.63,completed
+ORD-1147,2026-10-25,C092,Drinks,Delivery app,3.45,refunded
+ORD-1148,2026-10-25,C085,Bread,Walk-in,5.03,completed
+ORD-1149,2026-10-25,C106,Drinks,Walk-in,3.61,completed
+ORD-1150,2026-10-26,C008,Bread,Walk-in,3.47,completed
+ORD-1151,2026-10-26,C024,Drinks,Delivery app,3.51,completed
+ORD-1152,2026-10-26,C041,Pastry,Walk-in,4.76,completed
+ORD-1153,2026-10-26,C103,Bread,Walk-in,2.42,completed
+ORD-1154,2026-10-26,C018,Sandwiches,Phone,4.95,completed
+ORD-1155,2026-10-26,C022,Sandwiches,Delivery app,11.29,completed
+ORD-1156,2026-10-26,C064,Pastry,Walk-in,3.1,completed
+ORD-1157,2026-10-26,C041,Pastry,Walk-in,5.99,completed
+ORD-1158,2026-10-27,C022,Drinks,Walk-in,4.15,completed
+ORD-1159,2026-10-27,C046,Pastry,Walk-in,4.83,completed
+ORD-1160,2026-10-27,C021,Sandwiches,Walk-in,7.48,cancelled
+ORD-1161,2026-10-27,C016,Drinks,Delivery app,7.23,completed
+ORD-1162,2026-10-27,C110,Pastry,Walk-in,3.69,completed
+ORD-1163,2026-10-27,C101,Pastry,Walk-in,4.02,completed
+ORD-1164,2026-10-27,C014,Cakes,Delivery app,25.75,completed
+ORD-1165,2026-10-27,C030,Pastry,Walk-in,2.24,completed
+ORD-1166,2026-10-27,C069,Bread,Walk-in,1.57,completed
+ORD-1167,2026-10-27,C031,Drinks,Phone,2.45,cancelled
+ORD-1168,2026-10-27,C069,Bread,Walk-in,2.08,completed
+ORD-1169,2026-10-27,C127,Cakes,Delivery app,43.86,completed
+ORD-1170,2026-10-28,C122,Sandwiches,Walk-in,6.12,completed
+ORD-1171,2026-10-28,C035,Bread,Walk-in,5.72,completed
+ORD-1172,2026-10-28,C060,Bread,Walk-in,2.55,completed
+ORD-1173,2026-10-28,C063,Drinks,Walk-in,4.39,completed
+ORD-1174,2026-10-28,C075,Drinks,Delivery app,4.34,completed
+ORD-1175,2026-10-28,C092,Cakes,Delivery app,20.11,completed
+ORD-1176,2026-10-28,C012,Bread,Delivery app,2.9,completed
+ORD-1177,2026-10-28,C098,Bread,Walk-in,2.41,completed
+ORD-1178,2026-10-29,C070,Bread,Delivery app,1.33,completed
+ORD-1179,2026-10-29,C056,Drinks,Walk-in,4.11,completed
+ORD-1180,2026-10-29,C063,Pastry,Delivery app,3.89,completed
+ORD-1181,2026-10-29,C125,Drinks,Walk-in,8.75,completed
+ORD-1182,2026-10-29,C046,Pastry,Delivery app,3.38,completed
+ORD-1183,2026-10-29,C068,Bread,Delivery app,5.7,completed
+ORD-1184,2026-10-29,C021,Pastry,Walk-in,5.73,completed
+ORD-1185,2026-10-29,C007,Pastry,Delivery app,3.78,completed
+ORD-1186,2026-10-29,C008,Pastry,Walk-in,5.02,completed
+ORD-1187,2026-10-30,C026,Bread,Walk-in,2.96,completed
+ORD-1188,2026-10-30,C117,Pastry,Walk-in,2.36,completed
+ORD-1189,2026-10-30,C104,Pastry,Phone,4.25,completed
+ORD-1190,2026-10-30,C121,Pastry,Walk-in,4.02,completed
+ORD-1191,2026-10-30,C111,Sandwiches,Walk-in,11.37,completed
+ORD-1192,2026-10-30,C007,Sandwiches,Walk-in,10.21,completed
+ORD-1193,2026-10-30,C029,Pastry,Walk-in,6.1,completed
+ORD-1194,2026-10-30,C006,Drinks,Walk-in,7.85,completed
+ORD-1195,2026-10-30,C075,Pastry,Phone,2.46,completed
+ORD-1196,2026-10-30,C026,Pastry,Delivery app,4.73,completed
+ORD-1197,2026-10-30,C075,Bread,Delivery app,2.13,completed
+ORD-1198,2026-10-30,C070,Bread,Walk-in,2.29,completed
+ORD-1199,2026-10-30,C015,Bread,Delivery app,3.37,completed
+ORD-1200,2026-10-30,C002,Cakes,Delivery app,28.63,completed
+ORD-1201,2026-10-30,C063,Sandwiches,Walk-in,8.08,completed
+ORD-1202,2026-10-30,C101,Sandwiches,Walk-in,7.14,completed
+ORD-1203,2026-10-31,C076,Cakes,Delivery app,30.34,completed
+ORD-1204,2026-10-31,C086,Sandwiches,Delivery app,4.01,completed
+ORD-1205,2026-10-31,C063,Bread,Walk-in,4.53,completed
+ORD-1206,2026-10-31,C056,Cakes,Walk-in,48.47,completed
+ORD-1207,2026-10-31,C135,Cakes,Delivery app,27.52,completed
+ORD-1208,2026-10-31,C118,Pastry,Walk-in,5.22,completed
+ORD-1209,2026-10-31,C133,Sandwiches,Walk-in,17.42,completed
+ORD-1210,2026-10-31,C004,Bread,Delivery app,1.29,completed
+ORD-1211,2026-10-31,C009,Pastry,Walk-in,2.04,cancelled
+ORD-1212,2026-10-31,C027,Bread,Walk-in,2.95,completed
+ORD-1213,2026-10-31,C110,Drinks,Delivery app,7.93,completed
+ORD-1214,2026-10-31,C026,Drinks,Walk-in,4.05,completed
+ORD-1215,2026-10-31,C016,Pastry,Walk-in,2.84,completed
+ORD-1216,2026-10-31,C076,Sandwiches,Walk-in,9.9,completed
+ORD-1217,2026-10-31,C043,Bread,Walk-in,5.34,completed
+ORD-1218,2026-10-31,C071,Bread,Walk-in,1.61,completed
+ORD-1219,2026-10-31,C016,Drinks,Walk-in,3.0,completed
+ORD-1220,2026-10-31,C047,Sandwiches,Walk-in,7.45,completed

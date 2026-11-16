@@ -1,0 +1,3 @@
+Thing #1 (deck, from thing1_deck.md): https://claude.ai/artifact/X3nCjGAxWaMpAB7cFd5BMP
+Thing #2 (dashboard, dashboard.html): https://claude.ai/artifact/GTmnYwUYX8RoaedG99EmT3
+Both contain no personal data (customers are codes), so sharing is safe.

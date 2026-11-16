@@ -1,0 +1,21 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Corner Bakery — Aug–Oct 2026 (v1)</title><style>
+:root{--bg:#fff;--fg:#1f2937;--mut:#6b7280;--card:#f3f4f6;--bar:#c2410c;--bd:#e5e7eb}
+@media(prefers-color-scheme:dark){:root{--bg:#111827;--fg:#f3f4f6;--mut:#9ca3af;--card:#1f2937;--bar:#fb923c;--bd:#374151}}
+body{background:var(--bg);color:var(--fg);font:15px system-ui,sans-serif;margin:0;padding:20px;max-width:960px;margin-inline:auto}
+h1{font-size:22px;margin:0 0 4px}.n{color:var(--mut);margin:0 0 16px}
+.kp{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:16px}
+.kp div,.p{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:12px}
+.kp b{display:block;font-size:22px}.kp span{color:var(--mut);font-size:13px}
+.g{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px}
+h2{font-size:15px;margin:0 0 10px}.r{display:grid;grid-template-columns:90px 1fr 56px;gap:8px;align-items:center;margin:5px 0;font-size:13px}
+.t{background:var(--bd);border-radius:4px;height:14px}.t i{display:block;height:100%;background:var(--bar);border-radius:4px}
+</style></head><body><h1>Corner Bakery — Aug–Oct 2026 (v1)</h1><p class="n">Revenue counts all 1220 orders. Source: orders.csv (simulated, anonymised).</p>
+<div class="kp" id="kp"></div><div class="g" id="g"></div>
+<script>const D={"k": {"rev": 9209.04, "n": 1220, "aov": 7.55}, "cat": [["Cakes", 3734], ["Pastry", 1817], ["Sandwiches", 1761], ["Drinks", 950], ["Bread", 946]], "ch": [["Walk-in", 4907], ["Delivery app", 3470], ["Phone", 832]], "dow": [["Mon", 927], ["Tue", 981], ["Wed", 672], ["Thu", 997], ["Fri", 1432], ["Sat", 2316], ["Sun", 1884]], "wk": [["27 Jul", 222], ["03 Aug", 682], ["10 Aug", 853], ["17 Aug", 678], ["24 Aug", 854], ["31 Aug", 643], ["07 Sep", 686], ["14 Sep", 798], ["21 Sep", 541], ["28 Sep", 651], ["05 Oct", 606], ["12 Oct", 725], ["19 Oct", 737], ["26 Oct", 533]]};
+const kp=[["Revenue","$"+D.k.rev.toLocaleString()],["Orders",D.k.n],["Avg order","$"+D.k.aov]];
+document.getElementById("kp").innerHTML=kp.map(x=>`<div><b>${x[1]}</b><span>${x[0]}</span></div>`).join("");
+const P=[["Revenue by category","cat"],["Revenue by weekday","dow"],["Revenue by channel","ch"],["Revenue by week (starting)","wk"]];
+document.getElementById("g").innerHTML=P.map(([t,k])=>{const m=Math.max(...D[k].map(x=>x[1]));
+return `<div class="p"><h2>${t}</h2>`+D[k].map(([a,v])=>`<div class="r"><span>${a}</span><div class="t"><i style="width:${v/m*100}%"></i></div><span>$${v}</span></div>`).join("")+"</div>"}).join("");
+</script></body></html>
