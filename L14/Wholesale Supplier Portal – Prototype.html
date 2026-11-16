@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Wholesale Portal Prototype</title>
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--bg:#f6f5f1;--sf:#fff;--tx:#1d2420;--mt:#667069;--bd:#dcdad2;--ac:#1f6b4f;--act:#fff;--ok:#1f6b4f;--wn:#a86a00;--er:#b3321f;--sb:#eceae2}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141816;--sf:#1e2421;--tx:#e8ece9;--mt:#9aa59e;--bd:#333c37;--ac:#4fb68c;--act:#0c1a13;--ok:#4fb68c;--wn:#e0a64a;--er:#ef7f6d;--sb:#262d29;color-scheme:dark}}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif}
+header{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;padding:12px 18px;background:var(--sf);border-bottom:1px solid var(--bd)}
+h1{font-size:17px;margin:0}h2{font-size:15px;margin:0 0 8px}
+main{max-width:1000px;margin:0 auto;padding:16px}
+.card{background:var(--sf);border:1px solid var(--bd);border-radius:10px;padding:14px;margin-bottom:14px}
+.seg{display:inline-flex;border:1px solid var(--bd);border-radius:8px;overflow:hidden}
+.seg button{border:0;background:var(--sf);color:var(--tx);padding:7px 12px;cursor:pointer;font:inherit}
+.seg button.on{background:var(--ac);color:var(--act)}
+button.p{background:var(--ac);color:var(--act);border:0;border-radius:8px;padding:8px 14px;font:inherit;cursor:pointer}
+button.s{background:var(--sb);color:var(--tx);border:1px solid var(--bd);border-radius:8px;padding:7px 12px;font:inherit;cursor:pointer}
+button:disabled{opacity:.5;cursor:default}
+textarea,select,input{font:inherit;color:var(--tx);background:var(--bg);border:1px solid var(--bd);border-radius:8px;padding:8px;width:100%}
+input[type=number]{width:72px}
+.tw{overflow-x:auto}table{border-collapse:collapse;width:100%;min-width:560px}
+th,td{text-align:left;padding:7px 8px;border-bottom:1px solid var(--bd);vertical-align:top}
+th{color:var(--mt);font-weight:500;font-size:13px}
+.tag{display:inline-block;padding:2px 8px;border-radius:99px;font-size:12px;background:var(--sb)}
+.ok{color:var(--ok)}.wn{color:var(--wn)}.er{color:var(--er)}.mt{color:var(--mt)}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}@media(max-width:760px){.grid{grid-template-columns:1fr}}
+pre{white-space:pre-wrap;background:var(--bg);border:1px solid var(--bd);border-radius:8px;padding:10px;margin:6px 0;font:inherit}
+.tot{font-size:18px;font-weight:600}
+</style></head><body>
+<header><h1>Wholesale Portal · prototype</h1>
+<div class="row"><span class="mt" id="who"></span>
+<div class="seg" id="roles"><button data-r="buyer" class="on">Buyer</button><button data-r="manager">Manager</button></div></div></header>
+<main id="app"></main>
+<script>
+const BUYER={name:"Café Registan",disc:{}};
+// sku, name, unit, case size, base price (UZS-style demo currency: USD), contract discount, internal stock (cases) – never shown as a number
+const CAT=[
+["FL01","Wheat flour 50 kg sack","sack",1,21.0,.08,40],["OL02","Sunflower oil 5 L","bottle",4,9.5,.06,12],
+["SG03","White sugar 1 kg","pack",10,1.1,.05,200],["RC04","Rice, long grain 25 kg","sack",1,32.0,.07,3],
+["TM05","Tomato paste 800 g","can",12,2.4,.1,9],["CH06","Black tea 500 g","box",8,6.8,.04,0],
+["CF07","Ground coffee 1 kg","pack",6,14.5,.12,25],["MK08","UHT milk 1 L","carton",12,1.3,.05,60],
+["BT09","Butter 200 g","pack",20,2.2,.07,15],["CK10","Chickpeas 900 g","pack",12,1.9,.06,30],
+["SL11","Salt, fine 1 kg","pack",20,.4,.03,150],["NP12","Paper napkins 500 pcs","pack",10,1.6,.09,2]
+].map(a=>({sku:a[0],name:a[1],unit:a[2],cs:a[3],base:a[4],price:+(a[4]*(1-a[5])).toFixed(2),stock:a[6]}));
+const ADDR=["Amir Temur 12, Tashkent (restaurant)","Chilonzor 5/3, Tashkent (warehouse)","Samarkand, Registan 1 (branch)"];
+const STAT=["New","Approved","Sent to fulfilment","Shipped","Delivered"];
+const $=s=>document.querySelector(s),by=s=>CAT.find(c=>c.sku===s);
+let role="buyer",tab="text",draft=null,input={mode:"text",text:""},busy=false,msg="";
+let orders=[{id:1041,date:"2026-11-03",addr:ADDR[0],status:"Delivered",mode:"text",orig:"flour 4 sacks, oil 3 cases, sugar 2 cases",lines:[["FL01",4],["OL02",3],["SG03",2]]},
+{id:1052,date:"2026-11-10",addr:ADDR[1],status:"Shipped",mode:"catalog",orig:"(catalog selection)",lines:[["CF07",2],["MK08",3],["BT09",1]]}];
+try{const s=localStorage.getItem("wp_orders");if(s)orders=JSON.parse(s)}catch(e){}
+const save=()=>{try{localStorage.setItem("wp_orders",JSON.stringify(orders))}catch(e){}};
+const money=n=>"$"+n.toFixed(2);
+const avail=(sku,cases)=>{const s=by(sku).stock;return s<=0?"unavailable":cases>s?"limited":"available"};
+const availTxt={available:["Available","ok"],limited:["Limited – may ship in part","wn"],unavailable:["Unavailable now","er"]};
+const lineTotal=(sku,cases)=>by(sku).price*by(sku).cs*cases;
+const orderTotal=o=>o.lines.reduce((t,l)=>t+lineTotal(l[0],l[1]),0);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+// ---------- interpretation: model first, local keyword parser as fallback ----------
+async function interpret(text){
+  const list=CAT.map(c=>`${c.sku}|${c.name}|${c.unit}|case of ${c.cs}`).join("\n");
+  try{
+    const sample=await claude.use("sample"); if(!sample)throw 0;
+    const r=await sample.json(`You turn a wholesale buyer's free-form order (any language, may be a transcript of speech or a pasted file) into structured lines.
+Catalog (sku|name|unit|case size):\n${list}\n
+Rules: match only catalog items; never invent SKUs; if an item is unclear put it in "unclear". "unit" is "cases" if the buyer says cases/boxes/cartons, else "units" (pieces/sacks/kg-packs as counted).
+Return ONLY JSON: {"lines":[{"sku":"","quantity":0,"unit":"cases|units","phrase":""}],"unclear":["..."]}
+Order text:\n"""${text}"""`,{modelTier:"quick",cache:false});
+    return {src:"model",...r};
+  }catch(e){ return {src:"fallback",...localParse(text)}; }
+}
+function localParse(text){
+  const lines=[],unclear=[];
+  text.split(/[\n,;]|\band\b/i).map(s=>s.trim()).filter(Boolean).forEach(p=>{
+    const n=p.match(/\d+/);const words=p.toLowerCase().split(/\W+/).filter(w=>w.length>2&&isNaN(w));
+    let best=null,sc=0;CAT.forEach(c=>{const nm=c.name.toLowerCase();const s=words.filter(w=>nm.includes(w.replace(/s$/,""))).length;if(s>sc){sc=s;best=c}});
+    if(best&&n)lines.push({sku:best.sku,quantity:+n[0],unit:/case|box|carton/i.test(p)?"cases":"units",phrase:p});else unclear.push(p);});
+  return {lines,unclear};
+}
+function toDraft(r,orig,mode){
+  const m={};const notes=[];
+  (r.lines||[]).forEach(l=>{const c=by(l.sku);if(!c)return;let cases=l.unit==="cases"?l.quantity:Math.ceil(l.quantity/c.cs);
+    if(l.unit!=="cases"&&l.quantity%c.cs)notes.push(`${c.name}: ${l.quantity} rounded up to ${cases*c.cs} (case of ${c.cs})`);
+    m[l.sku]=(m[l.sku]||0)+Math.max(1,cases);});
+  return {lines:Object.entries(m),notes,unclear:r.unclear||[],src:r.src,orig,mode,addr:ADDR[0]};
+}
+
+// ---------- views ----------
+function render(){
+  $("#who").textContent=role==="buyer"?BUYER.name:"Supplier sales manager";
+  document.querySelectorAll("#roles button").forEach(b=>b.classList.toggle("on",b.dataset.r===role));
+  $("#app").innerHTML=role==="buyer"?buyerView():managerView(); bind();
+}
+function buyerView(){
+  return `<div class="card"><h2>1 · Place an order</h2>
+  <div class="seg" id="tabs">${["text","voice","file","catalog"].map(t=>`<button data-t="${t}" class="${tab===t?"on":""}">${t[0].toUpperCase()+t.slice(1)}</button>`).join("")}</div>
+  <div style="margin-top:10px">${inputView()}</div>${msg?`<p class="mt">${esc(msg)}</p>`:""}</div>
+  ${draft?draftView():""}
+  <div class="card"><h2>Your assortment &amp; contract prices</h2><div class="tw"><table><tr><th>Item</th><th>Case</th><th>Contract price / unit</th><th>Case price</th><th>Availability</th></tr>
+  ${CAT.map(c=>{const a=availTxt[avail(c.sku,1)];return `<tr><td>${c.name}</td><td>${c.cs} × ${c.unit}</td><td>${money(c.price)} <span class="mt"><s>${money(c.base)}</s></span></td><td>${money(c.price*c.cs)}</td><td class="${a[1]}">${a[0]}</td></tr>`}).join("")}</table></div></div>
+  <div class="card"><h2>Order history</h2>${histView()}</div>`;
+}
+function inputView(){
+  if(tab==="catalog")return `<div class="tw"><table><tr><th>Item</th><th>Case</th><th>Cases</th></tr>${CAT.map(c=>`<tr><td>${c.name}</td><td>${c.cs}</td><td><input type="number" min="0" data-cat="${c.sku}" value="${(draft&&draft.mode==="catalog"&&(draft.lines.find(l=>l[0]===c.sku)||[])[1])||0}"></td></tr>`).join("")}</table></div><p><button class="p" id="catGo">Prepare draft</button></p>`;
+  const hint=tab==="text"?"e.g. 4 sacks of flour, 3 cases of sunflower oil, 30 packs of sugar and coffee 5 packs":tab==="voice"?"Press the mic and speak, then edit the transcript if needed.":"Upload a .txt or .csv order list.";
+  return `<textarea id="txt" rows="4" placeholder="${hint}">${esc(input.text)}</textarea>
+  <p class="row">${tab==="voice"?`<button class="s" id="mic">🎤 Start dictation</button>`:""}${tab==="file"?`<input type="file" id="file" accept=".txt,.csv,text/*">`:""}
+  <button class="p" id="go" ${busy?"disabled":""}>${busy?"Interpreting…":"Prepare draft"}</button>
+  <button class="s" id="demo">Fill sample</button></p>`;
+}
+function draftView(){
+  const sub=draft.lines.reduce((t,l)=>t+lineTotal(l[0],l[1]),0);
+  return `<div class="card"><h2>2 · Draft order <span class="tag">${draft.src==="model"?"interpreted by Claude":draft.src==="fallback"?"basic parser (model unavailable)":"from catalog"}</span></h2>
+  <div class="tw"><table><tr><th>Item</th><th>Cases</th><th>Units</th><th>Line total</th><th>Availability</th><th></th></tr>
+  ${draft.lines.map(l=>{const c=by(l[0]),a=availTxt[avail(l[0],l[1])];return `<tr><td>${c.name}</td><td><input type="number" min="1" data-q="${l[0]}" value="${l[1]}"></td><td>${l[1]*c.cs}</td><td>${money(lineTotal(l[0],l[1]))}</td><td class="${a[1]}">${a[0]}</td><td><button class="s" data-rm="${l[0]}">✕</button></td></tr>`}).join("")||`<tr><td colspan="6" class="mt">No recognised items.</td></tr>`}</table></div>
+  ${draft.notes.map(n=>`<p class="wn">↻ ${esc(n)}</p>`).join("")}${draft.unclear.length?`<p class="er">Not understood: ${draft.unclear.map(esc).join("; ")}</p>`:""}
+  <div class="row"><div style="flex:1;min-width:220px"><label class="mt">Delivery address</label><select id="addr">${ADDR.map(a=>`<option ${a===draft.addr?"selected":""}>${a}</option>`).join("")}</select></div>
+  <div class="tot">Total ${money(sub)}</div><button class="p" id="submit" ${draft.lines.length?"":"disabled"}>Submit order</button></div></div>`;
+}
+function histView(){
+  return `<div class="tw"><table><tr><th>#</th><th>Date</th><th>Items</th><th>Total</th><th>Status</th><th></th></tr>${orders.slice().reverse().map(o=>`<tr><td>${o.id}</td><td>${o.date}</td><td>${o.lines.map(l=>by(l[0]).name.split(" ")[0]+" ×"+l[1]).join(", ")}</td><td>${money(orderTotal(o))}</td><td><span class="tag">${o.status}</span></td><td><button class="s" data-rep="${o.id}">Repeat</button></td></tr>`).join("")}</table></div>`;
+}
+function managerView(){
+  const q=orders.slice().reverse();
+  return `<p class="mt">Orders from buyers. Review the original input beside the prepared lines, then decide.</p>`+q.map(o=>{
+    const nxt=STAT[STAT.indexOf(o.status)+1];
+    return `<div class="card"><div class="row" style="justify-content:space-between"><h2>#${o.id} · ${BUYER.name} · ${o.date}</h2><span class="tag">${o.status}</span></div>
+    <div class="grid"><div><div class="mt">Original input (${o.mode})</div><pre>${esc(o.orig)}</pre><div class="mt">Deliver to</div>${esc(o.addr)}</div>
+    <div><div class="mt">Prepared lines</div><div class="tw"><table style="min-width:0"><tr><th>Item</th><th>Cases</th><th>Total</th><th>Stock</th></tr>${o.lines.map(l=>{const a=avail(l[0],l[1]);return `<tr><td>${by(l[0]).name}</td><td>${l[1]}</td><td>${money(lineTotal(l[0],l[1]))}</td><td class="${availTxt[a][1]}">${a}</td></tr>`}).join("")}</table></div><div class="tot">${money(orderTotal(o))}</div></div></div>
+    <div class="row" style="margin-top:8px">${o.status==="New"?`<button class="p" data-st="${o.id}|Approved">Approve</button><button class="s" data-st="${o.id}|Rejected">Reject</button>`:nxt&&o.status!=="Rejected"?`<button class="p" data-st="${o.id}|${nxt}">${nxt==="Sent to fulfilment"?"Forward to fulfilment":"Mark "+nxt.toLowerCase()}</button>`:""}</div></div>`}).join("");
+}
+
+// ---------- events ----------
+function bind(){
+  document.querySelectorAll("#tabs button").forEach(b=>b.onclick=()=>{input.text=($("#txt")||{}).value??input.text;tab=b.dataset.t;render()});
+  const g=$("#go");if(g)g.onclick=async()=>{input.text=$("#txt").value;if(!input.text.trim())return;busy=true;msg="";render();
+    const r=await interpret(input.text);draft=toDraft(r,input.text,tab);busy=false;render()};
+  const d=$("#demo");if(d)d.onclick=()=>{input.text="Need 4 sacks of flour, 6 sunflower oil bottles, 30 packs of sugar, tea 2 cases and napkins 15 packs";render()};
+  const cg=$("#catGo");if(cg)cg.onclick=()=>{const ls=[...document.querySelectorAll("[data-cat]")].filter(i=>+i.value>0).map(i=>[i.dataset.cat,+i.value]);
+    draft={lines:ls,notes:[],unclear:[],src:"catalog",orig:"(catalog selection)",mode:"catalog",addr:ADDR[0]};render()};
+  const f=$("#file");if(f)f.onchange=async()=>{if(f.files[0]){input.text=await f.files[0].text();msg="File loaded – check the text, then prepare the draft.";render()}};
+  const m=$("#mic");if(m)m.onclick=async()=>{let dc=null;try{dc=await claude.use("dictation")}catch(e){}
+    if(!dc){msg="Dictation isn't available in this browser – type or paste the transcript instead.";render();return}
+    dc.onFinal(({text})=>{const t=$("#txt");if(t){t.value=(t.value+" "+text).trim();input.text=t.value}});
+    dc.onState(({state})=>{m.textContent=state==="listening"?"■ Stop":"🎤 Start dictation"});
+    try{m.textContent==="■ Stop"?await dc.stop():await dc.start()}catch(e){msg="Microphone permission was declined.";render()}};
+  document.querySelectorAll("[data-q]").forEach(i=>i.onchange=()=>{const l=draft.lines.find(x=>x[0]===i.dataset.q);l[1]=Math.max(1,+i.value||1);render()});
+  document.querySelectorAll("[data-rm]").forEach(b=>b.onclick=()=>{draft.lines=draft.lines.filter(l=>l[0]!==b.dataset.rm);render()});
+  const a=$("#addr");if(a)a.onchange=()=>draft.addr=a.value;
+  const s=$("#submit");if(s)s.onclick=()=>{orders.push({id:(orders.at(-1)?.id||1000)+11,date:new Date().toISOString().slice(0,10),addr:draft.addr,status:"New",mode:draft.mode,orig:draft.orig,lines:draft.lines});save();
+    draft=null;input.text="";msg="Order submitted – the manager will review it. Track it in your history below.";render()};
+  document.querySelectorAll("[data-rep]").forEach(b=>b.onclick=()=>{const o=orders.find(x=>x.id==b.dataset.rep);
+    draft={lines:o.lines.map(l=>[...l]),notes:[],unclear:[],src:"catalog",orig:`(repeat of order #${o.id})`,mode:"repeat",addr:o.addr};msg="Repeat draft prepared – prices and availability are rechecked.";render();scrollTo(0,0)});
+  document.querySelectorAll("[data-st]").forEach(b=>b.onclick=()=>{const[i,st]=b.dataset.st.split("|");orders.find(o=>o.id==i).status=st;save();render()});
+}
+document.querySelectorAll("#roles button").forEach(b=>b.onclick=()=>{role=b.dataset.r;render()});
+render();
+</script></body></html>
