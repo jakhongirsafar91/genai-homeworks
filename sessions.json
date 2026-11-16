@@ -1,0 +1,13 @@
+{
+  "sessions": [
+    {
+      "id": "W101",
+      "title": "MCP practice",
+      "date": "2026-11-04",
+      "start": "20:00",
+      "timezone": "Europe/Warsaw",
+      "duration_minutes": 90,
+      "registration_required": true
+    }
+  ]
+}
